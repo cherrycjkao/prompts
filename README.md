@@ -9,7 +9,7 @@ Welcome to my AI Prompt portfolio! Here are some Prompt examples I designed for 
 
  Category | Description | Image Preview
 |------|------|-----------|
-| 🖼️ [Image Generation](prompts/image_generation/README.md) | Stable Difussion / DALL·E Visual Creation | ![3D Toy Texture](image_generation/stable_diffusion/3D_toy_texture_prompt_in_Stable_Diffusion.png) |
+| 🖼️ [Image Generation](image_generation/stable_diffusion/README.md) | Stable Difussion / DALL·E Visual Creation | ![3D Toy Texture](image_generation/stable_diffusion/3D_toy_texture_prompt_in_Stable_Diffusion.png) |
 | 🧠 [Idea Generation](prompts/idea_generation/README.md) | Idea generation assistance, inspiration burst | ![idea](assets/images/idea-generation.png) Coming soon| 
 | 🤖 [Chatbot Design](prompts/chatbot_design/README.md) | ChatGPT Dialogue Design and Personality Construction | ![chatbot-output](assets/images/chatbot-sample-output.png) Coming soon| 
 
