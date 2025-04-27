@@ -17,6 +17,6 @@ The prompts assist in creating job descriptions, screening resumes, generating i
 4. **Candidate Summary Writer**  
    Summarize candidate profiles and qualifications for quick reference.
 
-For detailed instructions and usage, please see the `examples.md` file.
+For detailed instructions and usage, please see the [examples.md](examples.md)  Coming soon 🔨 | file.
 
 ---
