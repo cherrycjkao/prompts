@@ -39,7 +39,7 @@ Preferred candidates hold an MBA degree and have prior experience managing SaaS 
 
 ---
 
-## 2. Resume Screening Example
+## 2. Resume Analyzer Example
 
 **Prompt Input (User Input):**
 - **Resume**: John Doe's Resume (example content here)  
@@ -92,7 +92,7 @@ Preferred candidates hold an MBA degree and have prior experience managing SaaS 
 
 ---
 
-## 4. Candidate Summary Writer Example
+## 4. Batch Candidate Summary Example
 
 **Prompt Input (User Input):**
 - **Candidate Profile**: [Detailed Candidate Info]  
