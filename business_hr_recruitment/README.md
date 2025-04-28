@@ -13,76 +13,146 @@ Generate a comprehensive job description for the role of [Role Title], which is 
 > - **Few-shot**: The example of a "Product Manager" role gives the AI context for how to format the output.
 > - **System Prompt**: The AI is instructed to generate specific parts of the job description (Responsibilities and Qualifications) while incorporating the user input.
 
-## 2. **Resume Screening Assistant**  
-> Assist in screening resumes and matching qualifications to job requirements.
-### **Prompt:**
-Analyze the resume of [Candidate's Name] with respect to the job requirements for the position of [Job Title]. Include the following details in the analysis:
+## 2. **Resume Analyzer**
+> Assist in analyzing resumes by extracting relevant skills, experiences, certifications, and years of experience in relation to the job requirements.  
+> **Note:** This analysis is informational only. Final evaluation and hiring decisions must be made by HR personnel.
 
-Resume: [Candidate's Resume (personal info, work experience, skills, etc.)]
+### **Prompt**
+Analyze the resume of **[Candidate's Name]** against the job requirements for the position of **[Job Title]**.  
+Extract and summarize the following details:
 
-Job Requirements: [Job Title, Skills, Experience, Qualifications]
+**Input:**
+- **Resume**: [Candidate's Resume (personal info, work experience, skills, etc.)]
+- **Job Requirements**: [Job Title, Skills, Experience, Qualifications]
 
-Provide an analysis that includes:
+**Output Structure:**
+- **Relevant Skills Identified**: List the candidate’s skills that match the job requirements.
+- **Relevant Certifications**: List any certifications relevant to the job.
+- **Years of Relevant Experience**: Estimate total years of experience related to the job.
+- **Additional Notable Achievements**: Summarize any significant achievements that may add value.
 
-- **Matches**: Highlight the skills and experiences from the resume that align with the job requirements.
-- **Missing**: List any qualifications or skills that are missing from the candidate's resume.
-- **Recommendation**: Based on the matches and missing skills, provide a recommendation whether to proceed with the candidate or not.
+> **Important:**  
+> - Do not provide any recommendation, score, or hiring decision.  
+> - Maintain a neutral and factual tone focused only on information extraction.
 
 > Techniques Used:
-> - **Chain of Thought**: This technique allows the AI to systematically analyze the resume against the job requirements, ensuring it identifies matches, missing qualifications, and provides a coherent recommendation.
-> - **Few-shot**: By giving the AI a structured example (even without full details), it learns how to process similar inputs and generate relevant outputs.
-> - **System Prompt**: This directs the AI to produce a structured output based on specific categories (Matches, Missing, and Recommendation) while focusing on user-provided inputs for resume and job requirements.
+> - **Chain of Thought**: Guides the AI to systematically extract and organize information based on defined categories without subjective judgment.
+> - **Few-shot Learning**: Structured examples are used to show the AI how to extract consistent and relevant data points across different resumes.
+> - **System Prompting**: Ensures the AI outputs strictly within the defined informational categories to maintain neutrality and compliance.
+
+## Compliance Note
+This Resume Analyzer is designed to comply with global AI regulations, including the EU AI Act and the U.S. EEOC's initiatives on AI fairness in employment, by avoiding automated decision-making and ensuring human oversight.  
+Final hiring decisions must always be made by human HR personnel.
+
+## References
+- [EU Artificial Intelligence Act - European Commission](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence)
+- [EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness - U.S. Equal Employment Opportunity Commission](https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness)
 
 ## 3. **Interview Question Builder**  
 > Generate a list of customized interview questions based on the job description and candidate profile.
 ### **Prompt:**
-You are an HR assistant designed to generate tailored interview questions. When generating questions, follow this thought process:
-1. Start by understanding the key responsibilities and required skills of the role.
-2. Think about potential challenges the candidate will face in this role and how they might approach them.
-3. Consider the candidate’s background and how it aligns with the job description.
+Generate customized interview questions based on the following information:
 
-Here are some example questions for a Product Manager:
-1. How do you prioritize competing product features when resources are limited?
-2. Can you describe a time when you led a product development project and had to manage stakeholders with different priorities?
+- Role: [Job Title for the position, e.g., Product Manager]
+- Job Description: [Detailed job responsibilities, required skills, qualifications]
+- Candidate Profile: [Candidate’s background information including skills, experience, and education]
 
-Now, based on the following details, generate interview questions:
-- Role: [Role]
-- Job Description: [Detailed Job Description]
-- Candidate Profile: [Candidate’s Background Information]
+Instructions:
+1. Tailor the questions specifically to assess the candidate's fit for the given role.
+2. Cover key competencies such as role-specific skills, cross-functional collaboration, problem-solving, and industry-related experience.
+3. Ensure questions reflect both the job description requirements and the candidate’s profile.
 
-> Techniques Used:
-> - **Chain of Thought**: Explicitly outlines a thought process that the AI should follow before generating interview questions. This chain of reasoning helps guide the AI step-by-step, ensuring that it logically considers key aspects of the role, potential challenges, and the candidate’s background.
-> - **Few-shot**: Involves providing a few examples to guide the AI’s understanding of the task. These examples help the AI learn how to generate relevant and high-quality outputs even with limited data.
-> - **System Prompt**: Sets the context and behavior of the AI throughout the task. It instructs the AI on how to approach the task and what priorities to focus on.
+Format the output as:
 
-## 4. **Candidate Summary Writer**  
-> Summarize candidate profiles and qualifications for quick reference.
-### **Prompt:**
-[Candidate's Name] is a highly qualified [Job Title] with [X] years of experience in [Key Skills/Experience]. She/he holds a [Degree/Certification] from [University/Institution] and has worked extensively with [Relevant Industry/Technology].  
-Her/his technical background includes proficiency in [Skills], and she/he has a proven track record of [Key Achievements/Experience].
+**Suggested Interview Questions:**
+1. [Generated Question 1]
+2. [Generated Question 2]
+3. [Generated Question 3]
+(...as many as appropriate)
 
-> **Note**: This is the AI-generated summary of the candidate's profile, highlighting key qualifications, experiences, and strengths that align with the job requirements.  
-*Technique: AI output structured in a summary format based on provided user input.*
-
-**Key Strengths:**
-- [Key Strength 1]
-- [Key Strength 2]
-- [Key Strength 3]
-
-> **Note**: These key strengths are generated by the AI, based on the candidate's profile and the job requirements provided by the user.  
-*Technique: Highlighting key strengths based on analysis of candidate profile and job requirements.*
-
-**Recommendation:**
-[Candidate's Name] is a strong candidate for the [Job Title] role, with a deep understanding of [Specific Skill/Area] and proven success in [Related Experience]. She/he would be a valuable addition to any [Department/Team].
-
-> **Note**: This recommendation is generated based on the AI’s analysis of the candidate's profile and their fit for the job position.  
-*Technique: AI-generated recommendation based on profile analysis and job fit.*
+> **Note**: Focus on making each question relevant and insightful to better evaluate the candidate's suitability.
 
 > Techniques Used:
-> - **Open-ended user input**: The user can provide detailed candidate information and job requirements, allowing for flexible customization.
-> - **Contextual input**: The job description and candidate profile serve as the context for generating a tailored summary.
+> - **Few-shot**: Guide the AI to generate multiple examples (interview questions) in one go.
+> - **Role Specification**: Clearly define the position title to provide context.
+> - **Context Embedding**: Include job description and candidate profile for richer, more informed generation.
+> - **Instruction-based Prompting**: Direct the AI with clear, step-by-step instructions.
 
-Recommendation: The AI provides a final recommendation based on the analysis, offering guidance on the candidate’s suitability for the role.
-For detailed instructions and usage, please see the [examples.md](examples.md) file.
+## 4. **Batch Candidate Summary Generation**   
+# Batch Candidate Summary Generation
+
+> Summarize candidate profiles neutrally, highlighting experiences, skills, and qualifications without making any suitability assessments.
+
+### **Prompt**
+
+You will receive multiple candidate profiles along with the same job requirements.  
+For each candidate:
+
+1. Write a professional and factual summary based on the provided candidate information.
+2. Highlight the candidate’s most relevant experiences, education, certifications, and skills.
+3. List 2–5 "Key Strengths" extracted from the profile.
+
+Do **not** make any recommendation or judgment regarding the candidate’s suitability for the role.
 
 ---
+
+## Inputs
+
+- **Job Requirements** (shared for all candidates):  
+  [Job Title, Key Skills, Required Experience, Industry-Specific Knowledge]
+
+- **Candidate Profiles** (list of multiple candidates):  
+  For each candidate, the following will be provided:
+  - Name
+  - Work Experience
+  - Education
+  - Skills
+  - Certifications
+  - Achievements
+
+---
+
+## Output Format for Each Candidate
+
+---
+**Candidate Summary for [Candidate's Name]**
+
+[Professional and factual summary paragraph(s) describing the candidate’s background and qualifications relevant to the job requirements.]
+
+**Key Strengths:**
+- [Strength 1]
+- [Strength 2]
+- [Strength 3]
+- (optional more)
+
+---
+
+Continue the process for all candidates.
+
+> **Note**: Maintain a consistent, formal, and concise writing style.  
+> Slightly adjust tone depending on candidate seniority (e.g., entry-level, mid-career, executive) but stay objective.
+
+---
+
+> Techniques Used:
+> - **Batch Processing**: Process multiple profiles in one instruction loop.
+> - **Loop Instruction**: Clear instruction to repeat the structure for each candidate.
+> - **Context Embedding**: Summaries connect candidate backgrounds to the job context factually.
+> - **Neutral Information Extraction**: No recommendations, scores, or suitability judgments.
+> - **Structured Output Design**: Clear, repeatable format for easy HR team reference.
+> - **Instruction-based Prompting**: Enforces neutrality and consistency throughout outputs.
+
+---
+
+## Compliance Note
+
+This candidate summarization approach aligns with global AI compliance standards, including the EU AI Act and U.S. EEOC initiatives, by ensuring that only human decision-makers assess candidate suitability.
+
+## References
+- [EU Artificial Intelligence Act - European Commission](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence)
+- [EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness - U.S. Equal Employment Opportunity Commission](https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness)
+
+---
+Recommendation: The AI provides a final recommendation based on the analysis, offering guidance on the candidate’s suitability for the role. This tool provides assistance only. Final decisions must be made by HR personnel.
+For detailed instructions and usage, please see the [examples.md](examples.md) file.
+
