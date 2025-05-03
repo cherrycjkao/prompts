@@ -1,7 +1,8 @@
 # Business: HR & Recruitment Prompts
 
 This section contains AI prompt frameworks designed for HR professionals and recruiters.  
-The prompts assist in creating job descriptions, screening resumes, generating interview questions, and summarizing candidate profiles. Each prompt can be customized to fit any position.
+The prompts assist in drafting job descriptions, analyzing resumes, generating interview questions, and summarizing candidate profiles.  
+Each prompt is designed to extract relevant information and streamline repetitive tasks, while ensuring that final hiring decisions remain fully human-led.
 
 ## How to use:
 1. Copy the **Prompt** sections to your AI tool (excluding the **💡 Note** sections).
