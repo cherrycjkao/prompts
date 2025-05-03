@@ -6,27 +6,64 @@ The prompts assist in creating job descriptions, screening resumes, generating i
 ## 1. **Job Description Generator Prompt**  
 > Generate clear and comprehensive job descriptions tailored to the role and requirements.  
 
-### **Prompt:**
-Generate a comprehensive job description for the role of [Role Title], which is part of the [Department] department. The ideal candidate should have [Experience] of experience in [Role Title] with expertise in [Skills]. Preferred qualifications include [Preferred Qualifications]. Ensure the job description includes key responsibilities and qualifications for the position.
+### 👤**Prompt:**
+You are the best HR assistant specializing in creating professional job descriptions.
+
+Based on the following input, generate a clear, detailed, and structured job description including a summary, key responsibilities, and required qualifications.
+
+**Prompt User Input:**
+- Role Title: Product Manager
+- Department: Product Development
+- Experience: 3–5 years
+- Skills: Agile methodologies, Roadmapping, Cross-functional collaboration
+- Preferred Qualifications: MBA degree, Experience with SaaS products
+
+**Instructions:**
+- Start with a brief summary of the role.
+- Follow with a bullet list of key responsibilities (5–7 items).
+- Then include required and preferred qualifications as separate sections.
+- Use professional and concise language tailored for HR/recruitment use.
+
+**Output Format:**
+
+**Job Title:** [Auto-filled from Role Title]  
+**Department:** [Auto-filled from Department]  
+
+**Job Summary:**  
+[Generated summary paragraph tailored to the role]
+
+**Key Responsibilities:**  
+- ...
+- ...
+
+**Required Qualifications:**  
+- ...
+
+**Preferred Qualifications:**  
+- ...
+
 
 > **Techniques Used:**
-> - **Chain of Thought**: The prompt logically leads the AI to generate all necessary sections (job title, responsibilities, qualifications) based on input criteria.
-> - **Few-shot**: The example of a "Product Manager" role gives the AI context for how to format the output.
-> - **System Prompt**: The AI is instructed to generate specific parts of the job description (Responsibilities and Qualifications) while incorporating the user input.
+> - **Parameter-based Prompting**: Inputs are clearly structured for easier customization.
+> - **Chain of Thought**: Guides the AI to logically build the job description.
+> - **Instruction-based Prompting**: Defines clear generation steps and formatting.
+> - **Structured Output**: Ensures consistency across different roles.
 
 ## 2. **Resume Analyzer**  
 > Assist in analyzing resumes by extracting relevant skills, experiences, certifications, and years of experience in relation to the job requirements.  
-> **Note:** This analysis is informational only. Final evaluation and hiring decisions must be made by HR personnel.
+> **💡Note:** This analysis is informational only. Final evaluation and hiring decisions must be made by HR personnel.
 
-### **Prompt:**
+### 👤**Prompt:**
 Analyze the resume of **[Candidate's Name]** against the job requirements for the position of **[Job Title]**.  
 Extract and summarize the following details:
 
-**Input:**
+**Prompt User Input:**
 - **Resume**: [Candidate's Resume (personal info, work experience, skills, etc.)]
 - **Job Requirements**: [Job Title, Skills, Experience, Qualifications]
 
 **Output Structure:**
+
+**Resume Review for [Candidate's name]:**
 - **Relevant Skills Identified**: List the candidate’s skills that match the job requirements.
 - **Relevant Certifications**: List any certifications relevant to the job.
 - **Years of Relevant Experience**: Estimate total years of experience related to the job.
@@ -41,7 +78,7 @@ Extract and summarize the following details:
 > - **Few-shot Learning**: Structured examples are used to show the AI how to extract consistent and relevant data points across different resumes.
 > - **System Prompting**: Ensures the AI outputs strictly within the defined informational categories to maintain neutrality and compliance.
 
-## Compliance Note  
+## 💡Compliance Note  
 This Resume Analyzer is designed to comply with global AI regulations, including the EU AI Act and the U.S. EEOC's initiatives on AI fairness in employment, by avoiding automated decision-making and ensuring human oversight.  
 Final hiring decisions must always be made by human HR personnel.
 
@@ -52,7 +89,7 @@ Final hiring decisions must always be made by human HR personnel.
 ## 3. **Interview Question Builder**  
 > Generate a list of customized interview questions based on the job description and candidate profile.  
 
-### **Prompt:**
+### 👤**Prompt:**
 Generate customized interview questions based on the following information:
 - **Role**: [Job Title for the position, e.g., Product Manager]
 - **Job Description**: [Detailed job responsibilities, required skills, qualifications]
@@ -70,7 +107,7 @@ Format the output as:
 3. [Generated Question 3]
 (...as many as appropriate)
 
-> **Note**: Focus on making each question relevant and insightful to better evaluate the candidate's suitability.
+> **💡Note**: Focus on making each question relevant and insightful to better evaluate the candidate's suitability.
 
 > **Techniques Used:**
 > - **Few-shot**: Guide the AI to generate multiple examples (interview questions) in one go.
@@ -81,7 +118,7 @@ Format the output as:
 ## 4. **Batch Candidate Summary Generation**  
 > Summarize candidate profiles neutrally, highlighting experiences, skills, and qualifications without making any suitability assessments.
 
-### **Prompt:**
+### 👤**Prompt:**
 You will receive multiple candidate profiles along with the same job requirements.  
 For each candidate:
 1. Write a professional and factual summary based on the provided candidate information.
@@ -122,7 +159,7 @@ Do **not** make any recommendation or judgment regarding the candidate’s suita
 
 ---
 
-> **Note:**  
+> **💡Note:**  
 > Continue applying the above structure for all provided candidates until the list is complete.
 > Maintain a consistent, formal, and concise writing style.  
 > Slightly adjust tone depending on candidate seniority (e.g., entry-level, mid-career, executive) but stay objective.
@@ -137,7 +174,7 @@ Do **not** make any recommendation or judgment regarding the candidate’s suita
 
 ---
 
-## Compliance Note  
+## 💡Compliance Note  
 This candidate summarization approach aligns with global AI compliance standards, including the EU AI Act and U.S. EEOC initiatives, by ensuring that only human decision-makers assess candidate suitability.
 
 ## References
@@ -146,5 +183,5 @@ This candidate summarization approach aligns with global AI compliance standards
 
 ---
 
-**Recommendation:** The AI provides a final recommendation based on the analysis, offering guidance on the candidate’s suitability for the role. This tool provides assistance only. Final decisions must be made by HR personnel.  
+**📌Recommendation:** The AI provides a final recommendation based on the analysis, offering guidance on the candidate’s suitability for the role. This tool provides assistance only. Final decisions must be made by HR personnel.  
 For detailed instructions and usage, please see the [examples.md](examples.md) file.
