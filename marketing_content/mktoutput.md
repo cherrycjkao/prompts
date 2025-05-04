@@ -1,4 +1,4 @@
-# Business: Marketing Content - Example Outputs
+# 📑 Marketing Content - Example Outputs
 
 ## How to use:
 1. Copy the **Prompt** sections from `marketing_content/MKTREADME.md` (excluding the **💡 Note** sections).  
