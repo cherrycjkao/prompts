@@ -11,11 +11,11 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 
 ## Table of Contents
 - [1. Social Post Generator (LinkedIn / IG / FB)](#1-social-post-generator-linkedin--ig--fb)  
-  - [1.1 Visual Prompt Generator (For Image Accompaniment)](#11-visual-prompt-generator-for-image-accompaniment)  
-- [2. Marketing Email Writer (Subject + Body)](#2-marketing-email-writer-subject--body)  
-- [3. Blog Outline Generator](#3-blog-outline-generator)  
-- [4. CTA Copy Generator (Headlines & Hooks)](#4-cta-copy-generator-headlines--hooks)  
-- [5. Multilingual Content Expander (EN / TC / ES / FR)](#5-multilingual-content-expander-en--tc--es--fr)  
+- [2. Visual Prompt Generator (For Image Accompaniment)](#2-visual-prompt-generator-for-image-accompaniment)  
+- [3. Marketing Email Writer (Subject + Body)](#2-marketing-email-writer-subject--body)  
+- [4. Blog Outline Generator](#3-blog-outline-generator)  
+- [5. Call To Action Copy Generator (Headlines & Hooks)](#4-cta-copy-generator-headlines--hooks)  
+- [6. Multilingual Content Expander (EN / TC / ES / FR)](#5-multilingual-content-expander-en--tc--es--fr)  
 
 ---
 
@@ -55,7 +55,7 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 
 ---
 
-### 1.1 🖼️ **Visual Prompt Generator (For Image Accompaniment)**  
+### 2 🖼️ **Visual Prompt Generator (For Image Accompaniment)**  
 > Generate a platform-appropriate image prompt to visually match the generated post.
 
 #### 👤 **Prompt Input (User Input):**  
@@ -86,7 +86,7 @@ You are a visual content designer. Based on the social post text and campaign co
 
 ---
 
-## 2. **Marketing Email Writer (Subject + Body)**  
+## 3. **Marketing Email Writer (Subject + Body)**  
 > Generate a compelling subject line and email body for campaigns or product launches.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -117,7 +117,7 @@ You are writing a marketing email for a new product or feature.
 
 ---
 
-## 3. **Blog Outline Generator**  
+## 4. **Blog Outline Generator**  
 > Quickly draft an SEO-friendly blog post outline.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -149,7 +149,7 @@ Create a blog post outline based on the topic and keywords below.
 
 ---
 
-## 4. **CTA Copy Generator (Headlines & Hooks)**  
+## 5. **Call To Aaction Copy Generator (Headlines & Hooks)**  
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -178,7 +178,7 @@ You are a copywriter creating concise CTA headlines.
 
 ---
 
-## 5. **Multilingual Content Expander (EN / TC / ES / FR)**  
+## 6. **Multilingual Content Expander (EN / TC / ES / FR)**  
 > Automatically generate multilingual versions of your content.
 
 ### 👤 **Prompt Input (User Input):**  
