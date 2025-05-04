@@ -1,4 +1,4 @@
-# Business: HR & Recruitment - Example Outputs
+# 📑 Business: HR & Recruitment - Example Outputs
 
 ## How to use:
 1. Copy the **Prompt** sections to your AI tool (excluding the **💡 Note** sections).
