@@ -98,7 +98,7 @@ You are a visual content designer. Based on the social post text and campaign co
 **AI Image Prompt:**  
 > Futuristic 3D render of an affordable flying car in mid-air, hovering above a modern city skyline. The car has sleek, aerodynamic design with visible details such as a built-in dashcam and parachute on top. The scene is vibrant and playful, with soft clouds in the background and a clear blue sky. The car is stylish yet practical, designed to appeal to car enthusiasts and those intrigued by novelty technology. A bold, eye-catching headline like 'Introducing the Future of Travel: The Affordable Flying Car' appears in the foreground. Include subtle futuristic design elements and lighting to emphasize the high-tech nature of the product. The mood is light-hearted and fun, drawing attention and sparking curiosity.
 
-![AI Image Output](../image_generation/dalle/Visual_Prompt_Generator_Example_Output_May4.png)
+![AI Image Output](marketing_content/Visual_Prompt_Generator_Example_Output_May4.png)
 
 ---
 
