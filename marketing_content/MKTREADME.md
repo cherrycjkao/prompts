@@ -63,7 +63,7 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 > Generate a platform-appropriate image prompt to visually match the generated post from 1. Social Post Generator
 
 ### 👤 **Prompt Input (User Input):**  
-You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for tools like DALL·E, Midjourney, or Canva AI.
+You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for tools like DALL·E, Midjourney, or Canva AI. (only keep the tool you want to use here)
 
 **Prompt User Input:**
 - **Post Text (from Generator)**: “[Insert text you used from 1.Social Post Generator]”  
