@@ -9,13 +9,17 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 2. Fill in your **User Input** (e.g., product name, campaign theme, etc.).  
 3. Review and adapt the AI-generated output for your marketing channels.
 
+---
+
 ## Table of Contents
+---------------------------------
 - [1. Social Post Generator (LinkedIn / IG / FB)](#1-social-post-generator-linkedin--ig--fb)  
 - [2. Visual Prompt Generator (For Image Accompaniment)](#2-visual-prompt-generator-for-image-accompaniment)  
-- [3. Marketing Email Writer (Subject + Body)](#2-marketing-email-writer-subject--body)  
-- [4. Blog Outline Generator](#3-blog-outline-generator)  
-- [5. Call To Action Copy Generator (Headlines & Hooks)](#4-cta-copy-generator-headlines--hooks)  
-- [6. Multilingual Content Expander (EN / TC / ES / FR)](#5-multilingual-content-expander-en--tc--es--fr)  
+- [3. Marketing Email Writer (Subject + Body)](#3-marketing-email-writer-subject--body)  
+- [4. Blog Outline Generator](#4-blog-outline-generator)  
+- [5. Call To Action Copy Generator (Headlines & Hooks)](#5-call-to-action-copy-generator-headlines--hooks)  
+- [6. Multilingual Content Expander (EN / TC / ES / FR)](#6-multilingual-content-expander-en--tc--es--fr)  
+---------------------------------
 
 ---
 
@@ -48,17 +52,17 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 > Seasonal hooks and trending hashtags can boost engagement—feel free to add them.
 
 > **Techniques Used:**  
-> - Instruction-based prompting  
-> - Platform-aware formatting  
-> - Brand voice alignment  
-> - Short-form persuasive writing
+> - **Instruction-based prompting**: Ensures AI follows detailed formatting and audience adaptation instructions.  
+> - **Platform-aware formatting**: Adjusts tone, emoji use, line breaks, and hashtags based on platform best practices.  
+> - **Brand voice alignment**: Keeps the tone consistent with brand personality for different audience segments.  
+> - **Short-form persuasive writing**: Optimized for quick reads while still driving action (CTA).
 
 ---
 
-### 2. **Visual Prompt Generator (For Image Accompaniment)**  
+## 2. **Visual Prompt Generator (For Image Accompaniment)**  
 > Generate a platform-appropriate image prompt to visually match the generated post.
 
-#### 👤 **Prompt Input (User Input):**  
+### 👤 **Prompt Input (User Input):**  
 You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for tools like DALL·E, Midjourney, or Canva AI.
 
 **Prompt User Input:**
@@ -79,10 +83,10 @@ You are a visual content designer. Based on the social post text and campaign co
 > - **Facebook**: Flexible styles—community or event themes work well.
 
 > **Techniques Used:**  
-> - Context embedding from copy  
-> - Text‑to‑image prompt mapping  
-> - Platform‑aware prompt design  
-> - Visual storytelling alignment
+> - **Context embedding from copy**: Uses the post text to infer themes and tone for image alignment.  
+> - **Text-to-image prompt mapping**: Converts marketing intent into detailed visual instructions.  
+> - **Platform‑aware prompt design**: Adapts to different visual expectations (e.g., color use on IG vs. LI).  
+> - **Visual storytelling alignment**: Ensures the visual reinforces the message of the post.
 
 ---
 
@@ -108,12 +112,10 @@ You are writing a marketing email for a new product or feature.
 - Value-driven bullet points or brief paragraph  
 - Strong CTA at the end
 
-> **💡 Note**: Test multiple versions by re-running the prompt with slight input tweaks.
-
 > **Techniques Used:**  
-> - Few‑shot prompting for alternative versions  
-> - Concise copywriting principles  
-> - CTA optimization
+> - **Few-shot prompting for variation**: Encourages multiple subject line options for A/B testing.  
+> - **Concise copywriting principles**: Keeps copy scannable and benefit-oriented.  
+> - **CTA optimization**: Places the call-to-action where it's most likely to convert (end of email body).
 
 ---
 
@@ -140,16 +142,14 @@ Create a blog post outline based on the topic and keywords below.
 4. …  
 5. Conclusion + CTA
 
-> **💡 Note**: Expand each section into full content using follow-up prompts.
-
 > **Techniques Used:**  
-> - Structured outline prompting  
-> - SEO keyword embedding  
-> - Audience-fit tailoring
+> - **Structured outline prompting**: Gives the model a blueprint to follow for logical flow.  
+> - **SEO keyword embedding**: Ensures the generated outline contains target keywords for search ranking.  
+> - **Audience-fit tailoring**: Adjusts content structure to the knowledge level of the reader.
 
 ---
 
-## 5. **Call To Aaction Copy Generator (Headlines & Hooks)**  
+## 5. **Call To Action Copy Generator (Headlines & Hooks)**  
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -169,12 +169,10 @@ You are a copywriter creating concise CTA headlines.
 4. [CTA 4]  
 5. [CTA 5]
 
-> **💡 Note**: Mix urgency, curiosity, and benefit in your CTA copy.
-
 > **Techniques Used:**  
-> - Short‑form copywriting prompt  
-> - Tone modulation  
-> - Offer‑based variations
+> - **Short-form copywriting prompt**: Drives focus on punchy, emotionally resonant headlines.  
+> - **Tone modulation**: Tailors the CTA to match urgency, authority, or friendliness as needed.  
+> - **Offer-based variations**: Uses core value proposition (e.g., "free trial") as anchor for wording.
 
 ---
 
@@ -202,12 +200,10 @@ Translate and localize the following marketing copy into Traditional Chinese, Sp
 **French (FR):**  
 [Localized text]
 
-> **💡 Note**: This is localization, not just translation—adjust tone and cultural nuance.
-
 > **Techniques Used:**  
-> - Multilingual prompt chaining  
-> - Style preservation in translation  
-> - Instruction‑tuned localization
+> - **Multilingual prompt chaining**: Executes structured translation + tone preservation in sequence.  
+> - **Style preservation in translation**: Maintains emotional appeal and clarity across languages.  
+> - **Instruction-tuned localization**: Allows tone adjustment (e.g., formal vs. casual) per region or audience.
 
 ---
 
