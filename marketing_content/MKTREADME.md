@@ -14,7 +14,7 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 - [2. Marketing Email Writer (Subject + Body)](#2-marketing-email-writer-subject--body)
 - [3. Blog Outline Generator](#3-blog-outline-generator)
 - [4. CTA Copy Generator (Headlines & Hooks)](#4-cta-copy-generator-headlines--hooks)
-- [5. Multilingual Content Expander (EN / 繁中 / ES / FR)](#5-multilingual-content-expander-en--繁中--es--fr)
+- [5. Multilingual Content Expander (EN / TC / ES / FR)](#5-multilingual-content-expander-en--tc--es--fr)
 
 ---
 
