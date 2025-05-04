@@ -23,14 +23,14 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 > Generate short, engaging social media posts tailored for your product, campaign, or launch goal.
 
 ### 👤 **Prompt Input (User Input):**  
-You are a marketing copywriter who writes compelling, channel-specific social media posts.
+You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 variations of social posts for LinkedIn, Instagram, and Facebook.
 
 **Prompt User Input:**
-- **Platform**: LinkedIn / Instagram / Facebook  
-- **Objective**: Promote webinar / Product launch / New feature / Blog / Lead magnet  
+- **Platform**: [What platform you will use the output: LinkedIn / Instagram / Facebook]
+- **Objective**: [What is the purpose: Promote webinar / Product launch / New feature / Blog / Lead magnet]
 - **Key Message**: [Summarize the core benefit or highlight]  
 - **Call to Action**: [What you want the reader to do]  
-- **Tone**: Professional / Friendly / Playful / Inspirational  
+- **Tone**: [Professional / Friendly / Playful / Inspirational]
 - **Target Audience**: [Marketers / Designers / Founders / etc.]
 
 **Instructions:**
