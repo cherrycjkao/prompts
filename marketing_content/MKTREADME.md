@@ -55,7 +55,7 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 
 ---
 
-### 2 🖼️ **Visual Prompt Generator (For Image Accompaniment)**  
+### 2. **Visual Prompt Generator (For Image Accompaniment)**  
 > Generate a platform-appropriate image prompt to visually match the generated post.
 
 #### 👤 **Prompt Input (User Input):**  
