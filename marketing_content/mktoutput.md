@@ -30,7 +30,7 @@ Here are example outputs generated using the Marketing Content prompts:
 - **Optional Hashtags**: fly, car, dashcam  
 - **Call to Action**: Attracting attention and sparking discussion 
 - **Tone**: Playful
--**Target Audience**: People who like novelty and those who are passionate about cars
+- **Target Audience**: People who like novelty and those who are passionate about cars
 - **Instructions**:
 Tailor the content to the specified platform and audience.
 Capture attention within the first sentence.
