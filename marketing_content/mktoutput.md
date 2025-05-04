@@ -22,17 +22,16 @@ Here are example outputs generated using the Marketing Content prompts:
 ## 1. **Social Post Generator Example**
 
 ### 👤 Prompt Input (User Input):
-Platform: LinkedIn / Instagram / Facebook
-Objective: Product launch 
-Key Message: 
+- **Platform**: LinkedIn / Instagram / Facebook
+- **Objective**: Product launch 
+- **Key Message**: 
 - **Product Name**: Flying car 
 - **Main Feature or Hook**: affortable flying car, low cost, dashcam included, parachute
 - **Optional Hashtags**: fly, car, dashcam  
-Call to Action: Attracting attention and sparking discussion 
-Tone: Playful
-Target Audience: People who like novelty and those who are passionate about cars
-Instructions:
-
+- **Call to Action**: Attracting attention and sparking discussion 
+- **Tone**: Playful
+-**Target Audience**: People who like novelty and those who are passionate about cars
+- **Instructions**:
 Tailor the content to the specified platform and audience.
 Capture attention within the first sentence.
 Use formatting (emojis, line breaks, hashtags) suitable for the chosen platform.
