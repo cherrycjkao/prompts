@@ -76,19 +76,29 @@ Are you ready to fly in style? 🚀
 ## 2. **Visual Prompt Generator Example**
 
 ### 👤 Prompt Input (User Input):
-- **Post Text (from Generator)**:  
-  “✨ Say goodbye to manual lighting! Meet the Acme Smart Lamp—your personal AI lighting assistant that adjusts brightness & color to fit your mood. 🌈💡 Ready to glow smarter? Shop now 👉 acme.com/smartlamp”  
-- **Platform**: Instagram  
-- **Tone**: Playful  
-- **Product/Theme**: AI‑powered smart lamp  
-- **Preferred Style**: Flat illustration, vibrant colors  
+You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for DALL·E
+
+> **Post the same text used from Social Post Generator to generate the Visual Prompt**: 
+- Platform: LinkedIn / Instagram / Facebook
+- Objective: Product launch 
+- Key Message: 
+- Product Name: Flying car 
+- Main Feature or Hook: affortable flying car, low cost, dashcam included.
+- Optional Hashtags: fly, car, dashcam  
+- Call to Action: Attracting attention and sparking discussion 
+- Tone: Playful
+- Target Audience: People who like novelty and those who are passionate about cars
+- **Product Theme**: Product launch, flying car **(for defining the visual theme)**
+- **Preferred Style (optional)**: 3D render / Futuristic **(for defining the visual style)**
 
 ---
 
 **🤖 Generated Output (AI Output):**
 
 **AI Image Prompt:**  
-> “A flat illustration of a cheerful living room with a modern smart lamp on a side table, the lamp glowing in rainbow hues, abstract mood icons floating above, vibrant pastel background—ideal for Instagram feed.”  
+> Futuristic 3D render of an affordable flying car in mid-air, hovering above a modern city skyline. The car has sleek, aerodynamic design with visible details such as a built-in dashcam and parachute on top. The scene is vibrant and playful, with soft clouds in the background and a clear blue sky. The car is stylish yet practical, designed to appeal to car enthusiasts and those intrigued by novelty technology. A bold, eye-catching headline like 'Introducing the Future of Travel: The Affordable Flying Car' appears in the foreground. Include subtle futuristic design elements and lighting to emphasize the high-tech nature of the product. The mood is light-hearted and fun, drawing attention and sparking curiosity.
+
+![Visual Prompt Generator Example Output](image_generation/dalle/Visual_Prompt_Generator_Example_Output_May4.png)
 
 ---
 
