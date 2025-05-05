@@ -12,13 +12,13 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 ---
 
 ## Table of Contents
----------------------------------
-- [1. Social Post Generator (LinkedIn / IG / FB)](#1-social-post-generator-linkedin--ig--fb)  
-- [2. Visual Prompt Generator (For Image Accompaniment)](#2-visual-prompt-generator-for-image-accompaniment)  
-- [3. Marketing Email Writer (Subject + Body)](#3-marketing-email-writer-subject--body)  
-- [4. Blog Outline Generator](#4-blog-outline-generator)  
-- [5. Call To Action Copy Generator (Headlines & Hooks)](#5-call-to-action-copy-generator-headlines--hooks)  
-- [6. Multilingual Content Expander (EN / TC / ES / FR)](#6-multilingual-content-expander-en--tc--es--fr)  
+- [1. Social Post Generator](#1-social-post-generator)  
+- [2. Visual Prompt Generator](#2-visual-prompt-generator)  
+- [3. Unified Social Post & Visual Prompt Generator](#3-unified-social-post--visual-prompt-generator)  
+- [4. Marketing Email Writer](#4-marketing-email-writer)  
+- [5. Blog Outline Generator](#5-blog-outline-generator)  
+- [6. Call To Action Copy Generator](#6-call-to-action-copy-generator)  
+- [7. Multilingual Content Expander](#7-multilingual-content-expander)
 ---------------------------------
 
 ---
@@ -89,8 +89,42 @@ You are a visual content designer. Based on the social post text and campaign co
 > - **Visual storytelling alignment**: Ensures the visual reinforces the message of the post.
 
 ---
+## 3. **Unified Social Post & Visual Prompt Generator**  
+> One-step generation of social post copy and a matching DALL·E image prompt.
 
-## 3. **Marketing Email Writer (Subject + Body)**  
+### 👤 Prompt Input (User Input):
+You are the best marketing & visual content designer. Based on the following input, generate the following in one go:
+1. Social media post text optimized for the platform
+2. Corresponding DALL·E image generation prompt (Image Prompt)
+- **Platform**: [LinkedIn / Instagram / Facebook]
+- **Objective**: [Product launch / Webinar / Event Promotion, etc.]
+- **Product Name**: [Your product name]  
+- **Key Message**: [Core benefit or highlight]  
+- **Main Feature or Hook**: [Key Features or Selling Points. e.g., “low cost, dashcam included”]  
+- **Optional Hashtags**: [#Hashtags, separated by commas. e.g., #fly #car #dashcam]  
+- **Call to Action**: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.]  
+- **Tone**: [Professional / Friendly / Playful / Inspirational, etc.]
+- **Target Audience**: [Who are you targeting? E.g., Tech Enthusiasts, Luxury Shoppers, Fitness Lovers, car enthusiasts, etc.]  
+- **Product Theme**: [e.g., “futuristic flying car launch”]  
+- **Preferred Style**: [e.g., “3D render”]
+- **Product Theme**: [Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovation]
+- **Preferred Style (optional)**: [Visual style preferences, e.g., 3D render, Minimalist, Abstract, Futuristic]
+- **Instructions**: Generate a social media post copy that matches the format of the "Platform" and the tone "Tone". Based on that post, generate an AI image prompt suitable for directly inputting into DALL·E.
+
+**Output Format:**  
+**Generated Post:**  
+[AI-crafted social post copy]  
+
+**AI Image Prompt:**  
+[Corresponding image prompt]
+
+> **Techniques Used:**  
+> - **Combined prompting**: merges text and visual generation  
+> - **Efficiency-focused**: delivers both outputs in one call
+
+---
+
+## 4. **Marketing Email Writer (Subject + Body)**  
 > Generate a compelling subject line and email body for campaigns or product launches.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -119,7 +153,7 @@ You are writing a marketing email for a new product or feature.
 
 ---
 
-## 4. **Blog Outline Generator**  
+## 5. **Blog Outline Generator**  
 > Quickly draft an SEO-friendly blog post outline.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -149,7 +183,7 @@ Create a blog post outline based on the topic and keywords below.
 
 ---
 
-## 5. **Call To Action Copy Generator (Headlines & Hooks)**  
+## 6. **Call To Action Copy Generator (Headlines & Hooks)**  
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -176,7 +210,7 @@ You are a copywriter creating concise CTA headlines.
 
 ---
 
-## 6. **Multilingual Content Expander (EN / TC / ES / FR)**  
+## 7. **Multilingual Content Expander (EN / TC / ES / FR)**  
 > Automatically generate multilingual versions of your content.
 
 ### 👤 **Prompt Input (User Input):**  
