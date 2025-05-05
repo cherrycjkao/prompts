@@ -23,7 +23,7 @@
 > - Section 3 provides a unified one-step prompt to yield both social post copy and DALL·E image prompt.  
 > - Use Sections 1 & 2 for detailed control or Section 3 for speed and convenience.
 
-## 1. **Social Post Generator Example**
+## 1. **Social Post Generator Example** (for detailed control)
 
 ### 👤 User Input:
 You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 variations of social posts for LinkedIn, Instagram, and Facebook.
@@ -78,7 +78,7 @@ Are you ready to fly in style? 🚀
 > **💡 Note**: The input meant to generate individual posts for each platform (LinkedIn, Instagram, and Facebook), optimized for the specific format, audience, and tone of each platform.
 ---
 
-## 2. **Visual Prompt Generator Example**
+## 2. **Visual Prompt Generator Example** (for detailed control)
 
 ### 👤 User Input:
 You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for DALL·E.
@@ -108,7 +108,7 @@ You are a visual content designer. Based on the social post text and campaign co
 
 ---
 
-## 3. **Unified Social Post & Visual Prompt Example**
+## 3. **Unified Social Post & Visual Prompt Example** (for speed and convenience)
 
 ### 👤 User Input:
 You are the best marketing & visual content designer. Based on the following input, generate the following in one go:
@@ -146,7 +146,7 @@ What’s your dream destination for a flying car? Drop it in the comments below!
 > 3D render of a futuristic flying car soaring through the sky above a city, with modern skyscrapers and a golden sunset in the background. The car has a sleek, aerodynamic design with glowing blue accents and integrated propellers. It should look affordable and accessible, with a visible dashcam on the front. The flying car is depicted in mid-air, hovering just above the ground, showcasing the future of transportation in a playful and innovative way. The overall tone should feel aspirational and cutting-edge.
 
 ### 👤 User Input:
-> Use the AI Image Prompt above to generate image:
+> Use the AI Image Prompt above to generate image, you might still need to modify the AI image prompt to get rid of the things you don't want in the image:
 ![AI Image Output3](/marketing_content/Visual_Prompt_Generator_Example_Output3_May4.png)
 
 ---
