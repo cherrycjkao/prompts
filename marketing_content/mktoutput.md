@@ -151,7 +151,7 @@ What’s your dream destination for a flying car? Drop it in the comments below!
 
 ---
 
-## 4. **Marketing Email Writer Example**
+## 4. **Marketing Email Writer Example**  -> TBC
 
 ### 👤 User Input:
 - **Campaign Type**: Product Launch  
@@ -178,7 +178,7 @@ Ready for effortless ambiance?
 
 ---
 
-## 5. **Blog Outline Generator Example**
+## 5. **Blog Outline Generator Example**  -> TBC
 
 ### 👤 User Input:
 - **Topic**: “5 Ways Smart Lighting Transforms Your Home”  
@@ -211,7 +211,7 @@ Ready for effortless ambiance?
 
 ---
 
-## 6. **Call To Action Copy Generator Example**
+## 6. **Call To Action Copy Generator Example**  -> TBC
 
 ### 👤 User Input:
 - **Product/Service Name**: Acme Smart Lamp  
@@ -231,7 +231,7 @@ Ready for effortless ambiance?
 
 ---
 
-## 7. **Multilingual Content Expander Example**
+## 7. **Multilingual Content Expander Example**  -> TBC
 
 ### 👤 User Input:
 - **Original Text (English)**: “Discover effortless ambiance with Acme Smart Lamp. Order now and enjoy free shipping!”  
