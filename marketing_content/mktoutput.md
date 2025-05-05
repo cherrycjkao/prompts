@@ -98,7 +98,7 @@ You are a visual content designer. Based on the social post text and campaign co
 
 ---
 
-**🤖 AI Image Prompt Output,👤 User Input:** 
+**🤖 AI Image Prompt Output,👤 User Input the prompt getting images:** 
 > Use this AI Image Prompt to get better quality images:
 
 | Prompt | Image |
@@ -143,9 +143,11 @@ What’s your dream destination for a flying car? Drop it in the comments below!
 #Fly #Car #Dashcam #FutureIsNow #FlyingCar #Innovation #NextGenTransport #SkyIsTheLimit #AffordableLuxury
 
 **AI Image Prompt (for DALL·E):**  
-> “Futuristic 3D render of an affordable flying car in mid-air, hovering above a modern city skyline. The car has sleek, aerodynamic design with a built-in dashcam on the windshield and a parachute on top. The scene is vibrant and playful, with soft clouds in the background and a clear blue sky. A bold, eye-catching headline like 'Introducing the Future of Travel: The Affordable Flying Car' appears in the foreground. Include subtle futuristic design elements and lighting to emphasize the high-tech nature of the product.”
+> 3D render of a futuristic flying car soaring through the sky above a city, with modern skyscrapers and a golden sunset in the background. The car has a sleek, aerodynamic design with glowing blue accents and integrated propellers. It should look affordable and accessible, with a visible dashcam on the front. The flying car is depicted in mid-air, hovering just above the ground, showcasing the future of transportation in a playful and innovative way. The overall tone should feel aspirational and cutting-edge.
 
-![AI Image Output](/marketing_content/Visual_Prompt_Generator_Example_Output_May4.png)
+### 👤 User Input:
+> Use the AI Image Prompt above to generate image:
+![AI Image Output3](/marketing_content/Visual_Prompt_Generator_Example_Output3_May4.png)
 
 ---
 
