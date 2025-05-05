@@ -124,7 +124,7 @@ You are the best marketing & visual content designer. Based on the following inp
 
 ---
 
-## 4. **Marketing Email Writer (Subject + Body)**  
+## 4. **Marketing Email Writer (Subject + Body)**  -> TBC
 > Generate a compelling subject line and email body for campaigns or product launches.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -153,7 +153,7 @@ You are writing a marketing email for a new product or feature.
 
 ---
 
-## 5. **Blog Outline Generator**  
+## 5. **Blog Outline Generator**   -> TBC
 > Quickly draft an SEO-friendly blog post outline.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -183,7 +183,7 @@ Create a blog post outline based on the topic and keywords below.
 
 ---
 
-## 6. **Call To Action Copy Generator (Headlines & Hooks)**  
+## 6. **Call To Action Copy Generator (Headlines & Hooks)**   -> TBC
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -210,7 +210,7 @@ You are a copywriter creating concise CTA headlines.
 
 ---
 
-## 7. **Multilingual Content Expander (EN / TC / ES / FR)**  
+## 7. **Multilingual Content Expander (EN / TC / ES / FR)**   -> TBC
 > Automatically generate multilingual versions of your content.
 
 ### 👤 **Prompt Input (User Input):**  
