@@ -163,10 +163,11 @@ You are a seasoned marketing strategist with over 10 years of experience in emai
 - **Call To Action**: Encourage immediate action with a strong, compelling call to action. Attract attention, create a sense of exclusivity, and spark discussion.
 
 Email Structure:
-Subject Line: Catchy and attention-grabbing, no more than 50 characters.
-Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
-Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
-Urgency + CTA: Add a time-sensitive offer and finish with a strong call to action that drives immediate response.
+Subject Line: 
+- Catchy and attention-grabbing, no more than 50 characters.
+- Introduction: 1 to 2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
+- Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
+- Urgency + CTA: Add a time-sensitive offer and finish with a strong call to action that drives immediate response.
 
 ---
 
@@ -189,7 +190,8 @@ Say hello to **AeroDrive One**, the world’s first affordable, eco-friendly fly
 We’re offering a **limited-time launch discount**, and once it’s gone, it’s gone. This is your chance to be one of the first to own a piece of the future—and show the world what modern driving should look like.
 
 👉 **Reserve yours now and take off in style.**
-[Claim My AeroDrive One]
+
+ [Claim My AeroDrive One]
 
 ---
 
