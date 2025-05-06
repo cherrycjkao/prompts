@@ -141,23 +141,6 @@ Introduction: 1–2 sentences that are engaging, personalized, and highlight the
 Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
 Urgency + CTA: Add a time-sensitive offer and finish with a strong call to action that drives immediate response.
 
-**Output Format:**
-
-Subject: {{DYNAMIC_SUBJECT_LINE}}
-
-Hi {{READER_NAME or “there”}},
-
-{{ENGAGING_INTRO}}  
-
-Here’s why {{PRODUCT_NAME}} is worth your attention:
-
-- {{BENEFIT 1}}
-- {{BENEFIT 2}}
-- {{BENEFIT 3}}
-
-But don’t wait — {{LIMITED_TIME_OFFER}}  
-{{STRONG_CTA}}  
-
 > **Techniques Used:**  
 > - **Few-shot prompting for variation**: Encourages multiple subject line options for A/B testing.  
 > - **Concise copywriting principles**: Keeps copy scannable and benefit-oriented.  
