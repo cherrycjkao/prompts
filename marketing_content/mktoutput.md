@@ -151,30 +151,45 @@ What’s your dream destination for a flying car? Drop it in the comments below!
 
 ---
 
-## 4. **Marketing Email Writer Example**  -> TBC
+## 4. **Marketing Email Writer Example**
 
 ### 👤 User Input:
-- **Campaign Type**: Product Launch  
-- **Key Message**: “Save time and energy with automated lighting”  
-- **Audience**: Busy professionals  
-- **CTA**: “Learn more”
+You are a seasoned marketing strategist with over 10 years of experience in email marketing. You excel at crafting persuasive, value-driven email copy that speaks directly to target audiences and drives conversions. Your emails are always clear, concise, and structured for maximum impact.
+
+- **Task**: Write a compelling product launch email that promotes a new product:a flying car with dashcam that is affordable, eco-friendly, and comes with additional perks.
+- **Key Message**: Affordable, eco-friendly dashcam with a limited-time discount
+- **Target Audience**: Novelty seekers & car enthusiasts
+- **Tone**: Engaging, conversational, and persuasive, with a hint of excitement and urgency
+- **Call To Action**: Encourage immediate action with a strong, compelling call to action. Attract attention, create a sense of exclusivity, and spark discussion.
+
+Email Structure:
+Subject Line: Catchy and attention-grabbing, no more than 50 characters.
+Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
+Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
+Urgency + CTA: Add a time-sensitive offer and finish with a strong call to action that drives immediate response.
 
 ---
 
 **🤖 AI Output:**
 
 **Subject Line:**  
-Brighten Your Evenings Automatically 🌟
+🚀 The Flying Car You've Been Waiting For Is Here
 
-**Email Body:**  
-Hi there,  
-Tired of fiddling with light switches every evening? The Acme Smart Lamp uses AI to set the perfect mood—whether you’re winding down with a book or hosting friends. Enjoy features like:  
-- **Auto‑schedule**: Lights turn on/off based on your routine  
-- **Color presets**: Choose from hundreds of mood‑boosting palettes  
-- **Energy saver**: Optimizes brightness for lower power use  
+**Email Body:**
 
-Ready for effortless ambiance?  
-👉 [Learn more](https://acme.com/smartlamp)
+**Meet the Future of Driving Today.**
+Say hello to **AeroDrive One**, the world’s first affordable, eco-friendly flying car with a built-in dashcam and next-level perks. It’s not sci-fi anymore—it’s your next ride.
+**Why AeroDrive One is turning heads:**
+- **Take flight or hit the road**:seamless switch from street to sky
+- **Eco-powered efficiency**:zero emissions, all thrill
+- **Always recording**:integrated dashcam for safety and epic views
+- **Luxury without the price tag**:built for enthusiasts, priced for everyone
+- **Early adopters get exclusive launch perks**:you’ll want in on these
+**But here’s the catch:**
+We’re offering a **limited-time launch discount**, and once it’s gone, it’s gone. This is your chance to be one of the first to own a piece of the future—and show the world what modern driving should look like.
+
+👉 **Reserve yours now and take off in style.**
+[Claim My AeroDrive One]
 
 ---
 
