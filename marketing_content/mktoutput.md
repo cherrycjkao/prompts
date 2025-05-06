@@ -163,6 +163,7 @@ You are a seasoned marketing strategist with over 10 years of experience in emai
 - **Call To Action**: Encourage immediate action with a strong, compelling call to action. Attract attention, create a sense of exclusivity, and spark discussion.
 
 Email Structure:
+
 Subject Line: 
 - Catchy and attention-grabbing, no more than 50 characters.
 - Introduction: 1 to 2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
