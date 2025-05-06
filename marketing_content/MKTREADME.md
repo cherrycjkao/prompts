@@ -105,9 +105,7 @@ You are the best marketing & visual content designer. Based on the following inp
 - **Call to Action**: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.]  
 - **Tone**: [Professional / Friendly / Playful / Inspirational, etc.]
 - **Target Audience**: [Who are you targeting? E.g., Tech Enthusiasts, Luxury Shoppers, Fitness Lovers, car enthusiasts, etc.]  
-- **Product Theme**: [e.g., “futuristic flying car launch”]  
-- **Preferred Style**: [e.g., “3D render”]
-- **Product Theme**: [Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovation]
+- **Product Theme**: [Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione]  
 - **Preferred Style (optional)**: [Visual style preferences, e.g., 3D render, Minimalist, Abstract, Futuristic]
 - **Instructions**: Generate a social media post copy that matches the format of the "Platform" and the tone "Tone". Based on that post, generate an AI image prompt suitable for directly inputting into DALL·E.
 
@@ -124,27 +122,41 @@ You are the best marketing & visual content designer. Based on the following inp
 
 ---
 
-## 4. **Marketing Email Writer (Subject + Body)**  -> TBC
+## 4. **Marketing Email Writer (Subject + Body)**
 > Generate a compelling subject line and email body for campaigns or product launches.
 
 ### 👤 **Prompt Input (User Input):**  
-You are writing a marketing email for a new product or feature.
+You are a seasoned marketing strategist with over 10 years of experience in email marketing. You excel at crafting persuasive, value-driven email copy that speaks directly to target audiences and drives conversions. Your emails are always clear, concise, and structured for maximum impact.
 
-**Prompt User Input:**
-- **Campaign Type**: Product Launch / Promotion / Newsletter  
-- **Key Message**: [e.g., "Save time with our new AI features"]  
-- **Audience**: [e.g., Small Business Owners, Designers]  
-- **CTA**: [e.g., "Try it now", "Book a demo"]
+Task: Write a compelling product launch email that promotes a new product: 
+[YOUR PRODUCT_NAME], [YOUR PRODUCT DESCRIPTION]. 
+Key Message or Main Feature or Hook: [Core benefit or highlight or key Features or Selling Points. e.g., “low cost, dashcam included”]
+Target Audience: [Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione] 
+Tone: [Professional / Friendly / Playful / Inspirational, etc.]
+Call to Action: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.] 
+
+Email Structure:
+Subject Line: Catchy and attention-grabbing, no more than 50 characters.
+Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
+Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
+Urgency + CTA: Add a time-sensitive offer and finish with a strong call to action that drives immediate response.
 
 **Output Format:**
 
-**Subject Line:**  
-[Compelling, under 50 characters]
+Subject: {{DYNAMIC_SUBJECT_LINE}}
 
-**Email Body:**  
-- 1–2 sentence intro  
-- Value-driven bullet points or brief paragraph  
-- Strong CTA at the end
+Hi {{READER_NAME or “there”}},
+
+{{ENGAGING_INTRO}}  
+
+Here’s why {{PRODUCT_NAME}} is worth your attention:
+
+- {{BENEFIT 1}}
+- {{BENEFIT 2}}
+- {{BENEFIT 3}}
+
+But don’t wait — {{LIMITED_TIME_OFFER}}  
+{{STRONG_CTA}}  
 
 > **Techniques Used:**  
 > - **Few-shot prompting for variation**: Encourages multiple subject line options for A/B testing.  
