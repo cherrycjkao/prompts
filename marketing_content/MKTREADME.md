@@ -27,26 +27,28 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 > Generate short, engaging social media posts tailored for your product, campaign, or launch goal.
 
 ### 👤 **Prompt Input (User Input):**  
-You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 variations of social posts for LinkedIn, Instagram, and Facebook.
+You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 short-form variations of platform-optimized social posts for the specified platform: LinkedIn, Instagram, or Facebook.
 
 **Prompt User Input:**
-- **Platform**: [What platform you will use the output: LinkedIn / Instagram / Facebook]
-- **Objective**: [What is the purpose: Promote webinar / Product launch / New feature / Blog / Lead magnet]
-- **Key Message**: [Summarize the core benefit or highlight]  
+- **Platform**: [LinkedIn / Instagram / Facebook]  
+- **Objective**: [Promote webinar / Product launch / New feature / Blog / Lead magnet]  
+- **Key Message**: [Core benefit or highlight]  
 - **Call to Action**: [What you want the reader to do]  
-- **Tone**: [Professional / Friendly / Playful / Inspirational]
+- **Tone**: [Professional / Friendly / Playful / Inspirational]  
 - **Target Audience**: [Marketers / Designers / Founders / etc.]
 
-**Instructions:**
-1. Tailor the content to the specified platform and audience.  
-2. Capture attention within the first sentence.  
-3. Use formatting (emojis, line breaks, hashtags) suitable for the chosen platform.  
-4. Keep it concise: max 280 chars for LinkedIn/FB, 2200 chars for IG (but favor short form).
-
-**Output Format:**
+**🧠 Instructions:**
+1. Tailor the content to the specified **platform**, **tone**, and **audience segment**.  
+2. Align word choice and writing style with the **brand voice** suitable for the audience.  
+3. Capture attention within the **first sentence** with a hook or benefit-driven statement.  
+4. Use formatting best practices per platform (e.g., emojis, line breaks, hashtags).  
+5. Keep it concise and persuasive:  
+   - **LinkedIn/Facebook**: Max 280 characters  
+   - **Instagram**: Max 2200 characters, but favor punchy short-form captions  
+6. Focus on **value + action**: make the benefit clear and end with a strong, actionable CTA.
 
 **Generated Post:**  
-[Formatted text with platform-optimized copy, including emojis and hashtags]
+[3 variations of formatted social posts tailored to the chosen platform, tone, and audience, including appropriate hashtags and emojis]
 
 > **💡 Note**: For multi‑platform campaigns, run this prompt once per platform with adjusted **Platform** input.  
 > Seasonal hooks and trending hashtags can boost engagement—feel free to add them.
@@ -72,15 +74,17 @@ You are a visual content designer. Based on the social post text and campaign co
 - **Product/Theme**: [e.g., AI design tool / Online workshop / Product launch]  
 - **Preferred Style (optional)**: [e.g., flat illustration / 3D render / minimalist / pastel aesthetic]
 
+**🧠 Instructions:**
+1. Translate the key message and tone of the **post** into a visual concept.  
+2. Make the prompt vivid, descriptive, and **aligned with the platform’s visual preferences** (e.g., Bold, playful colors; dynamic compositions for Instagram, Clean, polished visuals; brand-aligned palette for LinkedIn,Flexible styles—community or event themes work well for Facebook).  
+3. Reflect the **narrative, theme, or emotion** behind the copy in the visual storytelling.  
+4. Use concrete language: include style, composition, mood, color scheme, and environment if relevant.  
+5. Avoid including text in the image prompt unless clearly specified.  
+
 #### 🤖 **Output Format:**
 
 **AI Image Prompt:**  
 > “[A flat illustration of a modern marketer smiling at a glowing AI interface, surrounded by creative tools and post-it notes—vibrant tones, Instagram style]”
-
-> **💡 Notes:**  
-> - **Instagram**: Bold, playful colors; dynamic compositions.  
-> - **LinkedIn**: Clean, polished visuals; brand-aligned palette.  
-> - **Facebook**: Flexible styles—community or event themes work well.
 
 > **Techniques Used:**  
 > - **Context embedding from copy**: Uses the post text to infer themes and tone for image alignment.  
@@ -92,29 +96,41 @@ You are a visual content designer. Based on the social post text and campaign co
 ## 3. **Unified Social Post & Visual Prompt Generator**  
 > One-step generation of social post copy and a matching DALL·E image prompt.
 
-### 👤 Prompt Input (User Input):
-You are the best marketing & visual content designer. Based on the following input, generate the following in one go:
-1. Social media post text optimized for the platform
-2. Corresponding DALL·E image generation prompt (Image Prompt)
-- **Platform**: [LinkedIn / Instagram / Facebook]
-- **Objective**: [Product launch / Webinar / Event Promotion, etc.]
+You are the best marketing & visual content designer. Based on the input below, generate **both** a social media post and a DALL·E image prompt in one go.
+
+---
+
+### 👤 **User Input:**
+- **Platform**: [LinkedIn / Instagram / Facebook]  
+- **Objective**: [Product launch / Webinar / Event Promotion, etc.]  
 - **Product Name**: [Your product name]  
 - **Key Message**: [Core benefit or highlight]  
 - **Main Feature or Hook**: [Key Features or Selling Points. e.g., “low cost, dashcam included”]  
 - **Optional Hashtags**: [#Hashtags, separated by commas. e.g., #fly #car #dashcam]  
-- **Call to Action**: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.]  
-- **Tone**: [Professional / Friendly / Playful / Inspirational, etc.]
-- **Target Audience**: [Who are you targeting? E.g., Tech Enthusiasts, Luxury Shoppers, Fitness Lovers, car enthusiasts, etc.]  
-- **Product Theme**: [Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione]  
-- **Preferred Style (optional)**: [Visual style preferences, e.g., 3D render, Minimalist, Abstract, Futuristic]
-- **Instructions**: Generate a social media post copy that matches the format of the "Platform" and the tone "Tone". Based on that post, generate an AI image prompt suitable for directly inputting into DALL·E.
+- **Call to Action**: [E.g., "Shop Now", "Join the Discussion", etc.]  
+- **Tone**: [Professional / Friendly / Playful / Inspirational]  
+- **Target Audience**: [Tech Enthusiasts, Luxury Shoppers, etc.]  
+- **Product Theme**: [Futuristic, Eco-Friendly, etc.]  
+- **Preferred Style (optional)**: [3D render, Minimalist, Abstract, etc.]
 
-**Output Format:**  
+---
+
+### 🧠 **Instructions:**
+1. Write a social media post tailored to the **Platform**, **Tone**, and **Target Audience**.  
+2. Format the post in a way that fits the platform’s style (e.g., emojis + line breaks for IG, concise for LinkedIn).  
+3. The copy should highlight the **Key Message** and **Hook**, and end with a clear **Call to Action**.  
+4. Then, create a DALL·E image prompt that reflects the post’s theme, tone, and core message.  
+5. Avoid embedding text in the visual unless specifically instructed.
+
+---
+
+### 🤖 **Output Format:**
+
 **Generated Post:**  
-[AI-crafted social post copy]  
+[AI-crafted post optimized for the selected platform]
 
 **AI Image Prompt:**  
-[Corresponding image prompt]
+[Visual prompt suitable for direct use in DALL·E, aligned with the post’s tone and content]
 
 > **Techniques Used:**  
 > - **Combined prompting**: merges text and visual generation  
@@ -139,10 +155,9 @@ Email Structure:
 Subject Line: Catchy and attention-grabbing, no more than 50 characters.
 Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
 Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
-Urgency + CTA: Add a time-sensitive offer and finish with a strong call to action that drives immediate response.
+Urgency + CTA: Add a time-sensitive offer or exclusive incentive. End with a clear, compelling CTA placed for high conversion.
 
 > **Techniques Used:**  
-> - **Few-shot prompting for variation**: Encourages multiple subject line options for A/B testing.  
 > - **Concise copywriting principles**: Keeps copy scannable and benefit-oriented.  
 > - **CTA optimization**: Places the call-to-action where it's most likely to convert (end of email body).
 
