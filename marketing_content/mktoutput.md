@@ -23,7 +23,8 @@
 > - Section 3 provides a unified one-step prompt to yield both social post copy and DALL·E image prompt.  
 > - Use Sections 1 & 2 for detailed control or Section 3 for speed and convenience.
 
-## 1. **Social Post Generator Example** (for detailed control)
+## 1. **Social Post Generator Example**
+> For detailed control
 
 ### 👤 User Input:
 You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 variations of social posts for LinkedIn, Instagram, and Facebook.
@@ -78,8 +79,8 @@ Are you ready to fly in style? 🚀
 > **💡 Note**: The input meant to generate individual posts for each platform (LinkedIn, Instagram, and Facebook), optimized for the specific format, audience, and tone of each platform.
 ---
 
-## 2. **Visual Prompt Generator Example** (for detailed control)
-
+## 2. **Visual Prompt Generator Example**
+> For detailed control
 ### 👤 User Input:
 You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for DALL·E.
 
@@ -108,7 +109,8 @@ You are a visual content designer. Based on the social post text and campaign co
 
 ---
 
-## 3. **Unified Social Post & Visual Prompt Example** (for speed and convenience)
+## 3. **Unified Social Post & Visual Prompt Example**
+> For speed and convenience
 
 ### 👤 User Input:
 You are the best marketing & visual content designer. Based on the following input, generate the following in one go:
