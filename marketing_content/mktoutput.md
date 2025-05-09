@@ -196,36 +196,35 @@ We’re offering a **limited-time launch discount**, and once it’s gone, it’
 
 ---
 
-## 5. **Blog Outline Generator Example**  -> TBC
+## 5. **Blog Outline Generator Example**
 
 ### 👤 User Input:
-- **Topic**: “5 Ways Smart Lighting Transforms Your Home”  
-- **Target Audience**: Homeowners  
-- **Keywords to Include**: smart lighting, home automation, energy saving
+- **Topic**: “The Flying Car You've Been Waiting For Is Here”  
+- **Target Audience**: Novelty seekers & car enthusiasts  
+- **Keywords to Include**: Affordable, eco-friendly dashcam with a limited-time discount
 
 ---
 
 **🤖 AI Output:**
 
 **Blog Title Suggestion:**  
-5 Ways Smart Lighting Can Revolutionize Your Home
+Discover the Affordable, Eco-Friendly Flying Car with a Limited-Time Discount
 
 **Outline:**  
 1. **Introduction**  
-   - Why smart lighting matters in modern homes  
+   - The future of transportation is here, and it's flying! Discover the revolutionary flying car that's set to change the way we travel.
 2. **Automated Scheduling for Comfort & Security**  
-   - Setting routines for daily life  
-   - Vacation mode for added safety  
+   - How this flying car is priced to be accessible to a wide range of consumers.
+   - Benefits of choosing an eco-friendly vehicle for the environment and your wallet.
 3. **Energy Efficiency & Cost Savings**  
-   - How adaptive brightness cuts your bills  
-   - Eco‑friendly lighting options  
+   - Introduction to the advanced dashcam included with the flying car.
+   - How the dashcam enhances safety and provides peace of mind.
 4. **Mood & Productivity Enhancement**  
-   - Circadian lighting for better sleep  
-   - Color therapy for work-from-home days  
-5. **Seamless Integration with Smart Hubs**  
-   - Voice control and app ecosystems  
-6. **Conclusion + Call to Action**  
-   - Encouraging readers to explore smart lamp options  
+   - Details on the exclusive limited-time discount offer.  
+   - Steps to take advantage of the discount and secure your flying car today.
+5. **Conclusion + Call to Action**  
+   - Wrap-up: Emphasize the unique opportunity to own a cutting-edge, affordable, and eco-friendly flying car.
+   - Clear next step: Encourage readers to act now and not miss out on the limited-time discount. Invite them to share their thoughts and excitement in the comments.
 
 ---
 
