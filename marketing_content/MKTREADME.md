@@ -163,34 +163,58 @@ Urgency + CTA: Add a time-sensitive offer or exclusive incentive. End with a cle
 
 ---
 
-## 5. **Blog Outline Generator**   -> TBC
+## 5. **Blog Outline Generator**
 > Quickly draft an SEO-friendly blog post outline.
 
 ### 👤 **Prompt Input (User Input):**  
-Create a blog post outline based on the topic and keywords below.
+You are a skilled content strategist trained in SEO and audience-first writing. Based on the input below, create a reusable blog post outline for marketing use.
 
-**Prompt User Input:**
-- **Topic**: [e.g., “How AI is Changing Digital Marketing”]  
-- **Target Audience**: [e.g., Marketing Managers]  
+- **Topic**: [e.g., How AI is Changing Digital Marketing]  
+- **Target Audience**: [e.g., Marketing Managers / eCommerce Founders / B2B SaaS Decision Makers]  
 - **Keywords to Include**: [e.g., AI tools, content automation, personalization]
 
-**Output Format:**
+### 🧠 Instructions:
+1. **Blog Title**: Generate a title that includes at least one keyword, is attention-grabbing, and aligns with the audience's interests.
+2. **Outline Structure**:
+   - **Introduction**: 1–2 lines to hook the reader and briefly introduce the topic relevance.
+   - **Main Sections**: 3–5 sections. Each section title should contain **a relevant keyword**. Include 1–2 bullets to hint at subtopics or talking points.
+   - **Conclusion + CTA**: Summarize the main takeaway and include a relevant CTA (e.g., "Learn More", "Download the Guide").
+
+3. Tailor section tone and content depth to the specified **Target Audience**:
+   - Use domain-specific language if the audience is experienced.
+   - Use analogies, simple examples if the audience is non-technical.
+
+### 🤖 Output Format:
 
 **Blog Title Suggestion:**  
-[Catchy and relevant title]
+`[Catchy, keyword-rich blog title]`
 
-**Outline:**
-1. Introduction  
-2. [Main Section 1]  
-3. [Main Section 2]  
-4. …  
-5. Conclusion + CTA
+**Outline:**  
+- **Introduction**  
+  - [1–2 lines summarizing context or challenge]
+
+- **[Main Section 1 Title – must include a keyword]**  
+  - [Bullet 1: supporting idea]  
+  - [Bullet 2: optional use case or benefit]
+
+- **[Main Section 2 Title – must include a keyword]**  
+  - [Bullet 1]  
+  - [Bullet 2]
+
+- **[Main Section 3 Title – must include a keyword]**  
+  - [Bullet 1]  
+  - [Bullet 2]
+
+- **Conclusion + CTA**  
+  - [Wrap-up + clear next step]
 
 > **Techniques Used:**  
-> - **Structured outline prompting**: Gives the model a blueprint to follow for logical flow.  
-> - **SEO keyword embedding**: Ensures the generated outline contains target keywords for search ranking.  
-> - **Audience-fit tailoring**: Adjusts content structure to the knowledge level of the reader.
-
+> - **Structured outline prompting**: Ensures logical blog flow.  
+> - **SEO keyword embedding**: Improves ranking and relevance  
+> - **Audience fit tailoring**: Matches content to reader knowledge.
+> - **Reusability-First Design** – Built with parameter inputs for scalable use  
+> - **Markdown-Compatible Output** – Easy to paste into docs & tools  
+> - **CTA Optimization** – Boosts reader engagement with clear next step  
 ---
 
 ## 6. **Call To Action Copy Generator (Headlines & Hooks)**   -> TBC
