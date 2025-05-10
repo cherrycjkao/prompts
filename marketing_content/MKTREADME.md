@@ -217,7 +217,7 @@ You are a skilled content strategist trained in SEO and audience-first writing. 
 > - **CTA Optimization** – Boosts reader engagement with clear next step  
 ---
 
-## 6. **Call To Action Copy Generator (Headlines & Hooks)**
+## 6. **Call To Action Copy Generator**
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
 ### 👤 **Prompt Input (User Input):**  
@@ -225,7 +225,7 @@ You are a creative marketing copywriter skilled at writing punchy, benefit-drive
 
 **Prompt User Input:**
 - **Product/Service Name**: [e.g., Flow.ai]  
-- **Audience**: [e.g., Startup Teams]  
+- **Target Audience**: [e.g., Startup Teams]  
 - **Offer or Hook**: [e.g., "Free for 30 days"]  
 - **Tone**: [Urgent / Friendly / Bold / Fun / Confident] *(optional)*
 
@@ -246,15 +246,16 @@ You are a creative marketing copywriter skilled at writing punchy, benefit-drive
 
 ---
 
-## 7. **Multilingual Content Expander (EN / TC / ES / FR)**   -> TBC
+## 7. **Global Marketing Copy Localizer (8 Languages)**
 > Automatically generate multilingual versions of your content.
 
 ### 👤 **Prompt Input (User Input):**  
-Translate and localize the following marketing copy into Traditional Chinese, Spanish, and French.
+You are a multilingual marketing translator who specializes in culturally relevant and emotionally consistent localization. Based on the input below, translate and localize the given English marketing copy into the following 8 languages, while preserving tone and clarity.
 
 **Prompt User Input:**
 - **Original Text (English)**: [e.g., “Discover the power of AI-powered design tools. Try Flow.ai free today!”]  
-- **Optional Tone Instruction**: [e.g., “Keep tone friendly and professional”]
+- **Tone**: [e.g., Friendly and professional / Confident and innovative]
+- **Regional Variants (optional)**: Specify if tone or vocabulary should follow certain regions (e.g., Spanish (LATAM), French (Canada), Chinese (Hong Kong))
 
 **Output Format:**
 
@@ -262,18 +263,37 @@ Translate and localize the following marketing copy into Traditional Chinese, Sp
 [Original text]
 
 **Traditional Chinese (TC):**  
-[Localized text]
+[Localized text – Taiwan or Hong Kong style]
 
 **Spanish (ES):**  
-[Localized text]
+[Localized text – Spain or Latin America style, based on variant]
 
 **French (FR):**  
-[Localized text]
+[Localized text – France or Quebec French]
 
-> **Techniques Used:**  
-> - **Multilingual prompt chaining**: Executes structured translation + tone preservation in sequence.  
-> - **Style preservation in translation**: Maintains emotional appeal and clarity across languages.  
-> - **Instruction-tuned localization**: Allows tone adjustment (e.g., formal vs. casual) per region or audience.
+**Japanese (JA):**  
+[Localized text – culturally nuanced, formal/informal as per tone]
+
+**German (DE):**  
+[Localized text – direct yet culturally appropriate]
+
+**Portuguese (PT):**  
+[Localized text – Portugal or Brazil style]
+
+**Arabic (AR):**  
+[Localized text – Modern Standard Arabic, RTL format]
+
+---
+
+> 🛠 **Techniques Used:**
+- **Multilingual Prompt Chaining**: Executes structured translation + tone preservation in sequence.  
+- **Style preservation in translation**: Maintains emotional appeal and clarity across languages.  
+- **Instruction-tuned localization**: Allows tone adjustment (e.g., formal vs. casual) per region or audience.
+---
+
+> **💡 Note**:
+- Use for global landing pages, product descriptions, or multilingual social ads.  
+- Pair with visual localization for platform-specific content (e.g., Instagram vs. LinkedIn).
 
 ---
 
