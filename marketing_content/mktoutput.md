@@ -230,44 +230,70 @@ Discover the Affordable, Eco-Friendly Flying Car with a Limited-Time Discount
 
 ---
 
-## 6. **Call To Action Copy Generator Example**  -> TBC
+## 6. **Call To Action Copy Generator Example**
+
+You are a creative marketing copywriter skilled at writing punchy, benefit-driven CTA headlines. Based on the input below, generate 5 high-converting CTA options that are concise, emotionally resonant, and aligned with the offer and tone.
 
 ### 👤 User Input:
-- **Product/Service Name**: Acme Smart Lamp  
-- **Audience**: Homeowners  
-- **Offer or Hook**: “Free shipping for a limited time”
-
+- **Product/Service Name**: Flying car  
+- **Audience**: People who like novelty and those who are passionate about cars  
+- **Offer or Hook**: “2 years or 24,000 miles free maintenance services
+- **Tone**: Playful, fun
 ---
 
 **🤖 AI Output:**
 
 **CTA Ideas:**  
-1. Light up your life—free shipping ends soon!  
-2. Get cozy now: Free delivery on Acme Smart Lamp  
-3. Transform your home with smart lighting—shop today!  
-4. Bright ideas await—claim free shipping!  
-5. Upgrade your lighting game—order now
+1. Fly Fast. Ride Free. We’ve Got Maintenance Covered!
+2. Your Car Just Got Wings—And 2 Years of Free TLC!
+3. Zoom Through the Sky, Not the Service Line!
+4. Lift Off with Zero Maintenance Worries for 24,000 Miles!
+5. Get Airborne—We’ll Handle the Groundwork (For 2 Years)!
 
 ---
 
-## 7. **Multilingual Content Expander Example**  -> TBC
+## 7. **Multilingual Content Expander Example**
 
+You are a multilingual marketing translator who specializes in culturally relevant and emotionally consistent localization. Based on the input below, translate and localize the given English marketing copy into the following 8 languages, while preserving tone and clarity.
 ### 👤 User Input:
-- **Original Text (English)**: “Discover effortless ambiance with Acme Smart Lamp. Order now and enjoy free shipping!”  
-- **Optional Tone Instruction**: “Keep tone friendly and upbeat”
+- **Original Text (English)**: Fly Fast. Ride Free. We’ve Got Maintenance Covered!
+- **Tone**: Playful, fun  
+- **Regional Variants**: Tone and vocabulary should follow certain regions (e.g., Spanish (LATAM), French (France), Chinese (Taiwan)) 
+
+**Output Format:**
+Original (EN): [Original text]
+
+Traditional Chinese (TC): [Localized text – Taiwan style] 
+
+Spanish (ES): [Localized text – Latin America style] 
+
+French (FR): [Localized text – France French] 
+
+Japanese (JA): [Localized text – culturally nuanced, formal/informal as per tone]
+
+German (DE): [Localized text – direct yet culturally appropriate]
+
+Portuguese (PT): [Localized text – Portugal or Brazil style]
+
+Arabic (AR): [Localized text – Modern Standard Arabic, RTL format]
 
 ---
 
 **🤖 AI Output:**
 
-**Original (EN):**  
-Discover effortless ambiance with Acme Smart Lamp. Order now and enjoy free shipping!  
+**Original (EN):** Fly Fast. Ride Free. We’ve Got Maintenance Covered!  
 
-**Traditional Chinese (TC):**  
-探索極簡化的氛圍體驗，盡在 Acme 智能檯燈。立即下單，享受免運優惠！  
+**Traditional Chinese (TC):** 飛快起飛，輕鬆駕馭，保養我們來搞定！  
 
-**Spanish (ES):**  
-Descubre un ambiente sin esfuerzo con la lámpara inteligente Acme. ¡Haz tu pedido ahora y disfruta de envío gratis!  
+**Spanish (ES) – Latin America:** ¡Vuela rápido, conduce libre! Nosotros nos encargamos del mantenimiento.
 
-**French (FR):**  
-Découvrez une ambiance sans effort avec la lampe intelligente Acme. Commandez dès maintenant et profitez de la livraison gratuite！
+**French (FR) – France:** Volez vite, roulez librement. L’entretien, c’est pour nous !
+
+**Japanese (JA):** スピード全開、自由にライド！メンテナンスはおまかせ！
+
+**German (DE):** Schnell abheben, frei fahren – wir kümmern uns um die Wartung!
+
+**Portuguese (PT) – Brazil:** Voe rápido, dirija à vontade. A manutenção é por nossa conta!
+
+**Arabic (AR):** !انطلق بسرعة، قد بحرية، وسنعتني نحن بالصيانة
+(Modern Standard Arabic; RTL formatting preserved when displayed correctly)
