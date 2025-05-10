@@ -217,16 +217,17 @@ You are a skilled content strategist trained in SEO and audience-first writing. 
 > - **CTA Optimization** – Boosts reader engagement with clear next step  
 ---
 
-## 6. **Call To Action Copy Generator (Headlines & Hooks)**   -> TBC
+## 6. **Call To Action Copy Generator (Headlines & Hooks)**
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
 ### 👤 **Prompt Input (User Input):**  
-You are a copywriter creating concise CTA headlines.
+You are a creative marketing copywriter skilled at writing punchy, benefit-driven CTA headlines. Based on the input below, generate 5 high-converting CTA options that are concise, emotionally resonant, and aligned with the offer and tone.
 
 **Prompt User Input:**
 - **Product/Service Name**: [e.g., Flow.ai]  
 - **Audience**: [e.g., Startup Teams]  
-- **Offer or Hook**: [e.g., “Free for 30 days”]
+- **Offer or Hook**: [e.g., "Free for 30 days"]  
+- **Tone**: [Urgent / Friendly / Bold / Fun / Confident] *(optional)*
 
 **Output Format:**
 
@@ -238,9 +239,10 @@ You are a copywriter creating concise CTA headlines.
 5. [CTA 5]
 
 > **Techniques Used:**  
-> - **Short-form copywriting prompt**: Drives focus on punchy, emotionally resonant headlines.  
-> - **Tone modulation**: Tailors the CTA to match urgency, authority, or friendliness as needed.  
-> - **Offer-based variations**: Uses core value proposition (e.g., "free trial") as anchor for wording.
+> - **Short-form copywriting prompt**: Delivers punchy, high-impact phrases under 10 words.  
+> - **Tone modulation**: CTA style reflects selected emotional tone.  
+> - **Offer-based variations**: Core value/hook directly influences CTA wording.
+> - **Prompt Reusability**: Structured input for scaling across campaigns.
 
 ---
 
