@@ -23,8 +23,8 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 
 ---
 
-## 1. **Social Post Generator (LinkedIn / IG / FB)**  
-> Generate short, engaging social media posts tailored for your product, campaign, or launch goal.
+## 1. **Social Post Generator**  
+> Generate short, engaging social media posts tailored for your product, campaign, or launch goal on LinkedIn / IG / FB.
 
 ### 👤 Prompt Input (User Input):
 You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 short-form variations of platform-optimized social posts for the specified platform: LinkedIn, Instagram, or Facebook.
