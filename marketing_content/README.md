@@ -26,10 +26,9 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 ## 1. **Social Post Generator (LinkedIn / IG / FB)**  
 > Generate short, engaging social media posts tailored for your product, campaign, or launch goal.
 
-### 👤 **Prompt Input (User Input):**  
+### 👤 Prompt Input (User Input):
 You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 short-form variations of platform-optimized social posts for the specified platform: LinkedIn, Instagram, or Facebook.
 
-**Prompt User Input:**
 - **Platform**: [LinkedIn / Instagram / Facebook]  
 - **Objective**: [Promote webinar / Product launch / New feature / Blog / Lead magnet]  
 - **Key Message**: [Core benefit or highlight]  
@@ -37,7 +36,7 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 - **Tone**: [Professional / Friendly / Playful / Inspirational]  
 - **Target Audience**: [Marketers / Designers / Founders / etc.]
 
-**🧠 Instructions:**
+**Instructions:**
 1. Tailor the content to the specified **platform**, **tone**, and **audience segment**.  
 2. Align word choice and writing style with the **brand voice** suitable for the audience.  
 3. Capture attention within the **first sentence** with a hook or benefit-driven statement.  
@@ -47,27 +46,27 @@ You are a marketing copywriter who writes compelling, channel-specific social me
    - **Instagram**: Max 2200 characters, but favor punchy short-form captions  
 6. Focus on **value + action**: make the benefit clear and end with a strong, actionable CTA.
 
-**Generated Post:**  
+**Output Format:**
 [3 variations of formatted social posts tailored to the chosen platform, tone, and audience, including appropriate hashtags and emojis]
 
 > **💡 Note**: For multi‑platform campaigns, run this prompt once per platform with adjusted **Platform** input.  
 > Seasonal hooks and trending hashtags can boost engagement—feel free to add them.
 
-> **Techniques Used:**  
+> **🛠 Techniques Used:**  
 > - **Instruction-based prompting**: Ensures AI follows detailed formatting and audience adaptation instructions.  
 > - **Platform-aware formatting**: Adjusts tone, emoji use, line breaks, and hashtags based on platform best practices.  
 > - **Brand voice alignment**: Keeps the tone consistent with brand personality for different audience segments.  
 > - **Short-form persuasive writing**: Optimized for quick reads while still driving action (CTA).
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 2. **Visual Prompt Generator (For Image Accompaniment)**  
 > Generate a platform-appropriate image prompt to visually match the generated post from 1. Social Post Generator
 
-### 👤 **Prompt Input (User Input):**  
+### 👤 Prompt Input (User Input):
 You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for tools like DALL·E, Midjourney, or Canva AI. (only keep the tool you want to use here)
 
-**Prompt User Input:**
 - **Post Text (from Generator)**: “[Insert text you used from 1.Social Post Generator]”  
 - **Platform**: LinkedIn / Instagram / Facebook  
 - **Tone**: Professional / Playful / Empowering / etc.  
@@ -81,26 +80,23 @@ You are a visual content designer. Based on the social post text and campaign co
 4. Use concrete language: include style, composition, mood, color scheme, and environment if relevant.  
 5. Avoid including text in the image prompt unless clearly specified.  
 
-#### 🤖 **Output Format:**
-
-**AI Image Prompt:**  
+**Output Format:**
 > “[A flat illustration of a modern marketer smiling at a glowing AI interface, surrounded by creative tools and post-it notes—vibrant tones, Instagram style]”
 
-> **Techniques Used:**  
+> **🛠 Techniques Used:**  
 > - **Context embedding from copy**: Uses the post text to infer themes and tone for image alignment.  
 > - **Text-to-image prompt mapping**: Converts marketing intent into detailed visual instructions.  
 > - **Platform‑aware prompt design**: Adapts to different visual expectations (e.g., color use on IG vs. LI).  
 > - **Visual storytelling alignment**: Ensures the visual reinforces the message of the post.
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 ## 3. **Unified Social Post & Visual Prompt Generator**  
 > One-step generation of social post copy and a matching DALL·E image prompt.
 
+### 👤 Prompt Input (User Input):
 You are the best marketing & visual content designer. Based on the input below, generate **both** a social media post and a DALL·E image prompt in one go.
 
----
-
-### 👤 **User Input:**
 - **Platform**: [LinkedIn / Instagram / Facebook]  
 - **Objective**: [Product launch / Webinar / Event Promotion, etc.]  
 - **Product Name**: [Your product name]  
@@ -115,7 +111,7 @@ You are the best marketing & visual content designer. Based on the input below, 
 
 ---
 
-### 🧠 **Instructions:**
+**Instructions:**
 1. Write a social media post tailored to the **Platform**, **Tone**, and **Target Audience**.  
 2. Format the post in a way that fits the platform’s style (e.g., emojis + line breaks for IG, concise for LinkedIn).  
 3. The copy should highlight the **Key Message** and **Hook**, and end with a clear **Call to Action**.  
@@ -132,16 +128,17 @@ You are the best marketing & visual content designer. Based on the input below, 
 **AI Image Prompt:**  
 [Visual prompt suitable for direct use in DALL·E, aligned with the post’s tone and content]
 
-> **Techniques Used:**  
+> **🛠 Techniques Used:**  
 > - **Combined prompting**: merges text and visual generation  
 > - **Efficiency-focused**: delivers both outputs in one call
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 4. **Marketing Email Writer (Subject + Body)**
 > Generate a compelling subject line and email body for campaigns or product launches.
 
-### 👤 **Prompt Input (User Input):**  
+### 👤 Prompt Input (User Input):
 You are a seasoned marketing strategist with over 10 years of experience in email marketing. You excel at crafting persuasive, value-driven email copy that speaks directly to target audiences and drives conversions. Your emails are always clear, concise, and structured for maximum impact.
 
 Task: Write a compelling product launch email that promotes a new product: 
@@ -151,29 +148,31 @@ Target Audience: [Overall product or campaign theme, e.g., Futuristic, Eco-Frien
 Tone: [Professional / Friendly / Playful / Inspirational, etc.]
 Call to Action: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.] 
 
+**Output Format:**
 Email Structure:
 Subject Line: Catchy and attention-grabbing, no more than 50 characters.
 Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
 Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
 Urgency + CTA: Add a time-sensitive offer or exclusive incentive. End with a clear, compelling CTA placed for high conversion.
 
-> **Techniques Used:**  
+> **🛠 Techniques Used:**  
 > - **Concise copywriting principles**: Keeps copy scannable and benefit-oriented.  
 > - **CTA optimization**: Places the call-to-action where it's most likely to convert (end of email body).
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 5. **Blog Outline Generator**
 > Quickly draft an SEO-friendly blog post outline.
 
-### 👤 **Prompt Input (User Input):**  
+### 👤 Prompt Input (User Input):
 You are a skilled content strategist trained in SEO and audience-first writing. Based on the input below, create a reusable blog post outline for marketing use.
 
 - **Topic**: [e.g., How AI is Changing Digital Marketing]  
 - **Target Audience**: [e.g., Marketing Managers / eCommerce Founders / B2B SaaS Decision Makers]  
 - **Keywords to Include**: [e.g., AI tools, content automation, personalization]
 
-### 🧠 Instructions:
+Instructions:
 1. **Blog Title**: Generate a title that includes at least one keyword, is attention-grabbing, and aligns with the audience's interests.
 2. **Outline Structure**:
    - **Introduction**: 1–2 lines to hook the reader and briefly introduce the topic relevance.
@@ -184,7 +183,7 @@ You are a skilled content strategist trained in SEO and audience-first writing. 
    - Use domain-specific language if the audience is experienced.
    - Use analogies, simple examples if the audience is non-technical.
 
-### 🤖 Output Format:
+Output Format:
 
 **Blog Title Suggestion:**  
 `[Catchy, keyword-rich blog title]`
@@ -208,22 +207,23 @@ You are a skilled content strategist trained in SEO and audience-first writing. 
 - **Conclusion + CTA**  
   - [Wrap-up + clear next step]
 
-> **Techniques Used:**  
+> **🛠 Techniques Used:**  
 > - **Structured outline prompting**: Ensures logical blog flow.  
 > - **SEO keyword embedding**: Improves ranking and relevance  
 > - **Audience fit tailoring**: Matches content to reader knowledge.
 > - **Reusability-First Design** – Built with parameter inputs for scalable use  
 > - **Markdown-Compatible Output** – Easy to paste into docs & tools  
 > - **CTA Optimization** – Boosts reader engagement with clear next step  
+
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 6. **Call To Action Copy Generator**
 > Get 3–5 short-form CTAs or hook headlines for landing pages, ads, or banners.
 
-### 👤 **Prompt Input (User Input):**  
+### 👤 Prompt Input (User Input):
 You are a creative marketing copywriter skilled at writing punchy, benefit-driven CTA headlines. Based on the input below, generate 5 high-converting CTA options that are concise, emotionally resonant, and aligned with the offer and tone.
 
-**Prompt User Input:**
 - **Product/Service Name**: [e.g., Flow.ai]  
 - **Target Audience**: [e.g., Startup Teams]  
 - **Offer or Hook**: [e.g., "Free for 30 days"]  
@@ -238,21 +238,21 @@ You are a creative marketing copywriter skilled at writing punchy, benefit-drive
 4. [CTA 4]  
 5. [CTA 5]
 
-> **Techniques Used:**  
+> **🛠 Techniques Used:**  
 > - **Short-form copywriting prompt**: Delivers punchy, high-impact phrases under 10 words.  
 > - **Tone modulation**: CTA style reflects selected emotional tone.  
 > - **Offer-based variations**: Core value/hook directly influences CTA wording.
 > - **Prompt Reusability**: Structured input for scaling across campaigns.
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 7. **Global Marketing Copy Localizer 8 Languages**
-> Automatically generate multilingual versions of your content.
+> > Localize a marketing headline or paragraph into 8 major languages, preserving tone, intent, and market nuance.
 
-### 👤 **Prompt Input (User Input):**  
+### 👤 Prompt Input (User Input):
 You are a multilingual marketing translator who specializes in culturally relevant and emotionally consistent localization. Based on the input below, translate and localize the given English marketing copy into the following 8 languages, while preserving tone and clarity.
 
-**Prompt User Input:**
 - **Original Text (English)**: [e.g., “Discover the power of AI-powered design tools. Try Flow.ai free today!”]  
 - **Tone**: [e.g., Friendly and professional / Confident and innovative]
 - **Regional Variants (optional)**: Specify if tone or vocabulary should follow certain regions (e.g., Spanish (LATAM), French (Canada), Chinese (Hong Kong))
@@ -295,6 +295,7 @@ You are a multilingual marketing translator who specializes in culturally releva
 - Use for global landing pages, product descriptions, or multilingual social ads.  
 - Pair with visual localization for platform-specific content (e.g., Instagram vs. LinkedIn).
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## ✨ Summary
