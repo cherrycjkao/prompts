@@ -286,9 +286,9 @@ You are a multilingual marketing translator who specializes in culturally releva
 ---
 
 > 🛠 **Techniques Used:**
-- **Multilingual Prompt Chaining**: Executes structured translation + tone preservation in sequence.  
-- **Style preservation in translation**: Maintains emotional appeal and clarity across languages.  
-- **Instruction-tuned localization**: Allows tone adjustment (e.g., formal vs. casual) per region or audience.
+> - **Multilingual Prompt Chaining**: Executes structured translation + tone preservation in sequence.  
+> - **Style preservation in translation**: Maintains emotional appeal and clarity across languages.  
+> - **Instruction-tuned localization**: Allows tone adjustment (e.g., formal vs. casual) per region or audience.
 ---
 
 > **💡 Note**:
