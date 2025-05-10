@@ -18,7 +18,7 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 - [4. Marketing Email Writer](#4-marketing-email-writer)  
 - [5. Blog Outline Generator](#5-blog-outline-generator)  
 - [6. Call To Action Copy Generator](#6-call-to-action-copy-generator)  
-- [7. Global Marketing Copy Localizer - 8 Languages](#7-Global-Marketing-Copy-Localizer-8-Languages)
+- [7. Global Marketing Copy Localizer 8 Languages](#7-Global-Marketing-Copy-Localizer-8-Languages)
 ---------------------------------
 
 ---
@@ -246,7 +246,7 @@ You are a creative marketing copywriter skilled at writing punchy, benefit-drive
 
 ---
 
-## 7. **Global Marketing Copy Localizer - 8 Languages**
+## 7. **Global Marketing Copy Localizer 8 Languages**
 > Automatically generate multilingual versions of your content.
 
 ### 👤 **Prompt Input (User Input):**  
