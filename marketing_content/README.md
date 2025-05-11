@@ -31,7 +31,8 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 short-form variations of platform-optimized social posts for the specified platform: LinkedIn, Instagram, or Facebook.
 
 - **Platform**: [LinkedIn / Instagram / Facebook]  
-- **Objective**: [Promote webinar / Product launch / New feature / Blog / Lead magnet]  
+- **Objective**: [Promote webinar / Product launch / New feature / Blog / Lead magnet]
+- **Product Name**: [The name of the product/service]
 - **Key Message**: [Core benefit or highlight]  
 - **Call to Action**: [What you want the reader to do]  
 - **Tone**: [Professional / Friendly / Playful / Inspirational]  
