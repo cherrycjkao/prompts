@@ -14,7 +14,7 @@
 4. [Marketing Email Writer Example](#4-marketing-email-writer-example)
 5. [Blog Outline Generator Example](#5-blog-outline-generator-example)
 6. [Call To Action Copy Generator Example](#6-call-to-action-copy-generator-example)
-7. [Global Marketing Copy Localizer 8 Languages](#7-Global-Marketing-Copy-Localizer-8-Languages)
+7. [Global Marketing Copy Localizer 8 Languages Example](#7-Global-Marketing-Copy-Localizer-8-Languages-example)
 
 ---
 
