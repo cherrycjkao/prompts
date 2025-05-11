@@ -132,7 +132,7 @@ AI Image Prompt:
 ↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
-## 4. **Marketing Email Writer (Subject + Body)**
+## 4. **Marketing Email Writer**
 > Generate a compelling subject line and email body for campaigns or product launches.
 
 ### 👤 Prompt Input (User Input):
