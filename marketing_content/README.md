@@ -24,6 +24,7 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 ---
 
 ## 1. **Social Post Generator**  
+> For detailed control
 > Generate short, engaging social media posts tailored for your product, campaign, or launch goal on LinkedIn / IG / FB.
 
 ### 👤 Prompt Input (User Input):
@@ -36,7 +37,7 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 - **Tone**: [Professional / Friendly / Playful / Inspirational]  
 - **Target Audience**: [Marketers / Designers / Founders / etc.]
 
-**Instructions:**
+Instructions:
 1. Tailor the content to the specified **platform**, **tone**, and **audience segment**.  
 2. Align word choice and writing style with the **brand voice** suitable for the audience.  
 3. Capture attention within the **first sentence** with a hook or benefit-driven statement.  
@@ -46,7 +47,7 @@ You are a marketing copywriter who writes compelling, channel-specific social me
    - **Instagram**: Max 2200 characters, but favor punchy short-form captions  
 6. Focus on **value + action**: make the benefit clear and end with a strong, actionable CTA.
 
-**Output Format:**
+Output Format:
 [3 variations of formatted social posts tailored to the chosen platform, tone, and audience, including appropriate hashtags and emojis]
 
 > **💡 Note**: For multi‑platform campaigns, run this prompt once per platform with adjusted **Platform** input.  
@@ -61,7 +62,8 @@ You are a marketing copywriter who writes compelling, channel-specific social me
 ↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
-## 2. **Visual Prompt Generator (For Image Accompaniment)**  
+## 2. **Visual Prompt Generator**  
+> For detailed control
 > Generate a platform-appropriate image prompt to visually match the generated post from 1. Social Post Generator
 
 ### 👤 Prompt Input (User Input):
@@ -73,14 +75,14 @@ You are a visual content designer. Based on the social post text and campaign co
 - **Product/Theme**: [e.g., AI design tool / Online workshop / Product launch]  
 - **Preferred Style (optional)**: [e.g., flat illustration / 3D render / minimalist / pastel aesthetic]
 
-**🧠 Instructions:**
+Instructions:
 1. Translate the key message and tone of the **post** into a visual concept.  
 2. Make the prompt vivid, descriptive, and **aligned with the platform’s visual preferences** (e.g., Bold, playful colors; dynamic compositions for Instagram, Clean, polished visuals; brand-aligned palette for LinkedIn,Flexible styles—community or event themes work well for Facebook).  
 3. Reflect the **narrative, theme, or emotion** behind the copy in the visual storytelling.  
 4. Use concrete language: include style, composition, mood, color scheme, and environment if relevant.  
 5. Avoid including text in the image prompt unless clearly specified.  
 
-**Output Format:**
+Output Format:
 > “[A flat illustration of a modern marketer smiling at a glowing AI interface, surrounded by creative tools and post-it notes—vibrant tones, Instagram style]”
 
 > **🛠 Techniques Used:**  
@@ -91,7 +93,8 @@ You are a visual content designer. Based on the social post text and campaign co
 
 ↩️ [Back to Table of Contents](#table-of-contents)
 ---
-## 3. **Unified Social Post & Visual Prompt Generator**  
+## 3. **Unified Social Post & Visual Prompt Generator**
+> For speed and convenience
 > One-step generation of social post copy and a matching DALL·E image prompt.
 
 ### 👤 Prompt Input (User Input):
@@ -109,23 +112,17 @@ You are the best marketing & visual content designer. Based on the input below, 
 - **Product Theme**: [Futuristic, Eco-Friendly, etc.]  
 - **Preferred Style (optional)**: [3D render, Minimalist, Abstract, etc.]
 
----
-
-**Instructions:**
+Instructions:
 1. Write a social media post tailored to the **Platform**, **Tone**, and **Target Audience**.  
 2. Format the post in a way that fits the platform’s style (e.g., emojis + line breaks for IG, concise for LinkedIn).  
 3. The copy should highlight the **Key Message** and **Hook**, and end with a clear **Call to Action**.  
 4. Then, create a DALL·E image prompt that reflects the post’s theme, tone, and core message.  
 5. Avoid embedding text in the visual unless specifically instructed.
 
----
-
-### 🤖 **Output Format:**
-
-**Generated Post:**  
+Output Format:
 [AI-crafted post optimized for the selected platform]
 
-**AI Image Prompt:**  
+AI Image Prompt:
 [Visual prompt suitable for direct use in DALL·E, aligned with the post’s tone and content]
 
 > **🛠 Techniques Used:**  
@@ -148,8 +145,7 @@ Target Audience: [Overall product or campaign theme, e.g., Futuristic, Eco-Frien
 Tone: [Professional / Friendly / Playful / Inspirational, etc.]
 Call to Action: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.] 
 
-**Output Format:**
-Email Structure:
+Output Format:
 Subject Line: Catchy and attention-grabbing, no more than 50 characters.
 Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
 Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
@@ -185,10 +181,10 @@ Instructions:
 
 Output Format:
 
-**Blog Title Suggestion:**  
+Blog Title Suggestion:
 `[Catchy, keyword-rich blog title]`
 
-**Outline:**  
+Outline:
 - **Introduction**  
   - [1–2 lines summarizing context or challenge]
 
@@ -229,7 +225,7 @@ You are a creative marketing copywriter skilled at writing punchy, benefit-drive
 - **Offer or Hook**: [e.g., "Free for 30 days"]  
 - **Tone**: [Urgent / Friendly / Bold / Fun / Confident] *(optional)*
 
-**Output Format:**
+Output Format:
 
 **CTA Ideas:**
 1. [CTA 1]  
@@ -257,7 +253,7 @@ You are a multilingual marketing translator who specializes in culturally releva
 - **Tone**: [e.g., Friendly and professional / Confident and innovative]
 - **Regional Variants (optional)**: Specify if tone or vocabulary should follow certain regions (e.g., Spanish (LATAM), French (Canada), Chinese (Hong Kong))
 
-**Output Format:**
+Output Format:
 
 **Original (EN):**  
 [Original text]
