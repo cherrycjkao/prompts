@@ -14,7 +14,7 @@
 4. [Marketing Email Writer Example](#4-marketing-email-writer-example)
 5. [Blog Outline Generator Example](#5-blog-outline-generator-example)
 6. [Call To Action Copy Generator Example](#6-call-to-action-copy-generator-example)
-7. [Multilingual Content Expander Example](#7-multilingual-content-expander-example)
+7. [Global Marketing Copy Localizer 8 Languages](#7-Global-Marketing-Copy-Localizer-8-Languages)
 
 ---
 
@@ -33,7 +33,7 @@ Prompt User Input:
 - **Platform**: LinkedIn / Instagram / Facebook
 - **Objective**: Product launch
 - **Product Name**: Flying car
-- **Main Feature or Hook**: affortable flying car, low cost, dashcam included
+- **Key Message**: affordable flying car, low cost, dashcam included
 - **Optional Hashtags**: fly, car, dashcam
 - **Call to Action**: Attracting attention and sparking discussion
 - **Tone**: Playful
@@ -43,9 +43,8 @@ Tailor the content to the specified platform and audience.
 Capture attention within the first sentence.
 Use formatting (emojis, line breaks, hashtags) suitable for the chosen platform.
 Keep it concise: max 280 chars for LinkedIn/FB, 2200 chars for IG (but favor short form).
-Output Format:
 
-Generated Post:
+Output Format:
 [Formatted text with platform-optimized copy, including emojis and hashtags]
 
 ---
@@ -77,6 +76,8 @@ Are you ready to fly in style? 🚀
 #Fly #Car #FlyingCar #TechInnovation #Dashcam #AffordableFlyingCar
 
 > **💡 Note**: The input meant to generate individual posts for each platform (LinkedIn, Instagram, and Facebook), optimized for the specific format, audience, and tone of each platform.
+
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 2. **Visual Prompt Generator Example**
@@ -89,7 +90,7 @@ You are a visual content designer. Based on the social post text and campaign co
 - Platform: LinkedIn / Instagram / Facebook
 - Objective: Product launch
 -Product Name: Flying car
-- Main Feature or Hook: affortable flying car, low cost, dashcam included.
+- Main Feature or Hook: affordable flying car, low cost, dashcam included.
 - Optional Hashtags: fly, car, dashcam
 - Call to Action: Attracting attention and sparking discussion
 - Tone: Playful
@@ -107,6 +108,7 @@ You are a visual content designer. Based on the social post text and campaign co
 | Futuristic 3D render of an affordable flying car in mid-air, hovering above a modern city skyline. The car has sleek, aerodynamic design with a built-in dashcam on the windshield and a parachute on top. The scene is vibrant and playful, with soft clouds in the background and a clear blue sky. A bold, eye-catching headline like 'Introducing the Future of Travel: The Affordable Flying Car' appears in the foreground. Include subtle futuristic design elements and lighting to emphasize the high-tech nature of the product. | ![AI Image Output](/marketing_content/Visual_Prompt_Generator_Example_Output_May4.png) |
 | A cinematic 3D render of a futuristic city skyline at sunset, seen from a bird’s-eye view. An affordable flying car with a sleek metallic body, smooth curves, and transparent glass panels hovers in mid-air, supported by four glowing drone-style rotors. A high-definition dashcam is visible in the front windshield, and a compact retractable parachute system is integrated into the roof. Below, a high-tech city glows with neon-lit skyscrapers, reflective surfaces, sky gardens, and floating digital billboards. The sky is painted in warm orange, pink, and purple hues with soft stylized clouds. Surrounding the car are holographic displays, glowing light trails, and futuristic roadways, creating a sense of motion and innovation. In the foreground, playful neon text reads: “The Future of Travel is Here: Affordable Flying Car.” Add visual elements that hint at hashtags: #fly, #car, #dashcam. Style: vibrant, playful, futuristic, high-detail 3D render. | ![AI Image Output2](/marketing_content/Visual_Prompt_Generator_Example_Output2_May4.png) |
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 3. **Unified Social Post & Visual Prompt Example**
@@ -129,7 +131,6 @@ You are the best marketing & visual content designer. Based on the following inp
 - **Instructions**:
 Generate a social media post copy that matches the format of the "Platform" and the tone "Tone".
 Based on that post, generate an AI image prompt suitable for directly inputting into DALL·E.
-
 ---
 
 **🤖 AI Output:**
@@ -151,6 +152,7 @@ What’s your dream destination for a flying car? Drop it in the comments below!
 > Use the AI Image Prompt above to generate image, you might still need to modify the AI image prompt to get rid of the things you don't want in the image:
 ![AI Image Output3](/marketing_content/Visual_Prompt_Generator_Example_Output3_May4.png)
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 4. **Marketing Email Writer Example**
@@ -164,7 +166,7 @@ You are a seasoned marketing strategist with over 10 years of experience in emai
 - **Tone**: Engaging, conversational, and persuasive, with a hint of excitement and urgency
 - **Call To Action**: Encourage immediate action with a strong, compelling call to action. Attract attention, create a sense of exclusivity, and spark discussion.
 
-Email Structure:
+Output Format:
 
 Subject Line: 
 - Catchy and attention-grabbing, no more than 50 characters.
@@ -184,18 +186,19 @@ Subject Line:
 **Meet the Future of Driving Today.**
 Say hello to **AeroDrive One**, the world’s first affordable, eco-friendly flying car with a built-in dashcam and next-level perks. It’s not sci-fi anymore—it’s your next ride.
 **Why AeroDrive One is turning heads:**
-- **Take flight or hit the road**:seamless switch from street to sky
-- **Eco-powered efficiency**:zero emissions, all thrill
-- **Always recording**:integrated dashcam for safety and epic views
-- **Luxury without the price tag**:built for enthusiasts, priced for everyone
-- **Early adopters get exclusive launch perks**:you’ll want in on these
+- **Take flight or hit the road**: Seamless switch from street to sky
+- **Eco-powered efficiency**: Zero emissions, all thrill
+- **Always recording**: Integrated dashcam for safety and epic views
+- **Luxury without the price tag**: Built for enthusiasts, priced for everyone
+- **Early adopters get exclusive launch perks**: You’ll want in on these
 **But here’s the catch:**
 We’re offering a **limited-time launch discount**, and once it’s gone, it’s gone. This is your chance to be one of the first to own a piece of the future—and show the world what modern driving should look like.
 
 👉 **Reserve yours now and take off in style.**
 
- [Claim My AeroDrive One]
+[Claim My AeroDrive One](https://your-url.example)
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 5. **Blog Outline Generator Example**
@@ -228,6 +231,7 @@ Discover the Affordable, Eco-Friendly Flying Car with a Limited-Time Discount
    - Wrap-up: Emphasize the unique opportunity to own a cutting-edge, affordable, and eco-friendly flying car.
    - Clear next step: Encourage readers to act now and not miss out on the limited-time discount. Invite them to share their thoughts and excitement in the comments.
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
 ## 6. **Call To Action Copy Generator Example**
@@ -235,9 +239,9 @@ Discover the Affordable, Eco-Friendly Flying Car with a Limited-Time Discount
 You are a creative marketing copywriter skilled at writing punchy, benefit-driven CTA headlines. Based on the input below, generate 5 high-converting CTA options that are concise, emotionally resonant, and aligned with the offer and tone.
 
 ### 👤 User Input:
-- **Product/Service Name**: Flying car  
-- **Audience**: People who like novelty and those who are passionate about cars  
-- **Offer or Hook**: “2 years or 24,000 miles free maintenance services
+- **Product/Service Name**: Flying car
+- **Audience**: People who like novelty and those who are passionate about cars
+- **Offer or Hook**: 2 years or 24,000 miles free maintenance services
 - **Tone**: Playful, fun
 ---
 
@@ -250,9 +254,10 @@ You are a creative marketing copywriter skilled at writing punchy, benefit-drive
 4. Lift Off with Zero Maintenance Worries for 24,000 Miles!
 5. Get Airborne—We’ll Handle the Groundwork (For 2 Years)!
 
+↩️ [Back to Table of Contents](#table-of-contents)
 ---
 
-## 7. **Multilingual Content Expander Example**
+## 7. **Global Marketing Copy Localizer 8 Languages Example**
 
 You are a multilingual marketing translator who specializes in culturally relevant and emotionally consistent localization. Based on the input below, translate and localize the given English marketing copy into the following 8 languages, while preserving tone and clarity.
 ### 👤 User Input:
@@ -297,3 +302,5 @@ Arabic (AR): [Localized text – Modern Standard Arabic, RTL format]
 
 **Arabic (AR):** !انطلق بسرعة، قد بحرية، وسنعتني نحن بالصيانة
 (Modern Standard Arabic; RTL formatting preserved when displayed correctly)
+
+↩️ [Back to Table of Contents](#table-of-contents)
