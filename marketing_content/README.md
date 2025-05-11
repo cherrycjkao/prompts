@@ -293,11 +293,3 @@ Output Format:
 - Pair with visual localization for platform-specific content (e.g., Instagram vs. LinkedIn).
 
 ↩️ [Back to Table of Contents](#table-of-contents)
----
-
-## ✨ Summary
-
-This section is built for modern marketing workflows—speedy, multilingual, and on-message.  
-Prompts are structured, reusable, and easy to customize.
-
-Need a variation not listed here? Create your own using these templates, or contribute ideas via GitHub Issues or Discussions!
