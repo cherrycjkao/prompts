@@ -142,12 +142,12 @@ AI Image Prompt:
 ### 👤 Prompt Input (User Input):
 You are a seasoned marketing strategist with over 10 years of experience in email marketing. You excel at crafting persuasive, value-driven email copy that speaks directly to target audiences and drives conversions. Your emails are always clear, concise, and structured for maximum impact.
 
-Task: Write a compelling product launch email that promotes a new product: 
+- **Task:** Write a compelling product launch email that promotes a new product: 
 `[YOUR PRODUCT_NAME]`, `[YOUR PRODUCT DESCRIPTION]`.
-Key Message or Main Feature or Hook: `[Core benefit or highlight or key Features or Selling Points. e.g., “low cost, dashcam included”]`
-Target Audience: `[Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione]`
-Tone: `[Professional / Friendly / Playful / Inspirational, etc.]`
-Call to Action: `[What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.]`
+- **Key Message or Main Feature or Hook:** `[Core benefit or highlight or key Features or Selling Points. e.g., “low cost, dashcam included”]`
+- **Target Audience:** `[Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione]`
+- **Tone:** `[Professional / Friendly / Playful / Inspirational, etc.]`
+- **Call to Action:** `[What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.]`
 
 Output Format:
 
