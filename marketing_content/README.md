@@ -30,13 +30,13 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 ### 👤 Prompt Input (User Input):
 You are a marketing copywriter who writes compelling, channel-specific social media posts. Based on the input below, generate 3 short-form variations of platform-optimized social posts for the specified platform: LinkedIn, Instagram, or Facebook.
 
-- **Platform**: [LinkedIn / Instagram / Facebook]  
-- **Objective**: [Promote webinar / Product launch / New feature / Blog / Lead magnet]
-- **Product Name**: [The name of the product/service]
-- **Key Message**: [Core benefit or highlight]  
-- **Call to Action**: [What you want the reader to do]  
-- **Tone**: [Professional / Friendly / Playful / Inspirational]  
-- **Target Audience**: [Marketers / Designers / Founders / etc.]
+- **Platform**: `[LinkedIn / Instagram / Facebook]`
+- **Objective**: `[Promote webinar / Product launch / New feature / Blog / Lead magnet]`
+- **Product Name**: `[The name of the product/service]`
+- **Key Message**: `[Core benefit or highlight]`
+- **Call to Action**: `[What you want the reader to do]`
+- **Tone**: `[Professional / Friendly / Playful / Inspirational]`
+- **Target Audience**: `[Marketers / Designers / Founders / etc.]`
 
 Instructions:
 1. Tailor the content to the specified **platform**, **tone**, and **audience segment**.  
@@ -71,11 +71,11 @@ Output Format:
 ### 👤 Prompt Input (User Input):
 You are a visual content designer. Based on the social post text and campaign context below, generate an image prompt suitable for tools like DALL·E, Midjourney, or Canva AI. (only keep the tool you want to use here)
 
-- **Post Text (from Generator)**: “[Insert text you used from 1.Social Post Generator]”  
-- **Platform**: LinkedIn / Instagram / Facebook  
-- **Tone**: Professional / Playful / Empowering / etc.  
-- **Product/Theme**: [e.g., AI design tool / Online workshop / Product launch]  
-- **Preferred Style (optional)**: [e.g., flat illustration / 3D render / minimalist / pastel aesthetic]
+- **Post Text (from Generator)**: `[Insert text you used from 1.Social Post Generator]` 
+- **Platform**: `[LinkedIn / Instagram / Facebook]`  
+- **Tone**: `[Professional / Playful / Empowering / etc.]`
+- **Product/Theme**: `[e.g., AI design tool / Online workshop / Product launch]`
+- **Preferred Style (optional)**: `[e.g., flat illustration / 3D render / minimalist / pastel aesthetic]`
 
 Instructions:
 1. Translate the key message and tone of the **post** into a visual concept.  
@@ -103,17 +103,17 @@ Output Format:
 ### 👤 Prompt Input (User Input):
 You are the best marketing & visual content designer. Based on the input below, generate **both** a social media post and a DALL·E image prompt in one go.
 
-- **Platform**: [LinkedIn / Instagram / Facebook]  
-- **Objective**: [Product launch / Webinar / Event Promotion, etc.]  
-- **Product Name**: [Your product name]  
-- **Key Message**: [Core benefit or highlight]  
-- **Main Feature or Hook**: [Key Features or Selling Points. e.g., “low cost, dashcam included”]  
-- **Optional Hashtags**: [#Hashtags, separated by commas. e.g., #fly #car #dashcam]  
-- **Call to Action**: [E.g., "Shop Now", "Join the Discussion", etc.]  
-- **Tone**: [Professional / Friendly / Playful / Inspirational]  
-- **Target Audience**: [Tech Enthusiasts, Luxury Shoppers, etc.]  
-- **Product Theme**: [Futuristic, Eco-Friendly, etc.]  
-- **Preferred Style (optional)**: [3D render, Minimalist, Abstract, etc.]
+- **Platform**: `[LinkedIn / Instagram / Facebook]`
+- **Objective**: `[Product launch / Webinar / Event Promotion, etc.]`
+- **Product Name**: `[Your product name]`
+- **Key Message**: `[Core benefit or highlight]`
+- **Main Feature or Hook**: `[Key Features or Selling Points. e.g., “low cost, dashcam included”]`
+- **Optional Hashtags**: `[#Hashtags, separated by commas. e.g., #fly #car #dashcam]`
+- **Call to Action**: `[E.g., "Shop Now", "Join the Discussion", etc.]`
+- **Tone**: `[Professional / Friendly / Playful / Inspirational]`
+- **Target Audience**: `[Tech Enthusiasts, Luxury Shoppers, etc.]`
+- **Product Theme**: `[Futuristic, Eco-Friendly, etc.]`
+- **Preferred Style (optional)**: `[3D render, Minimalist, Abstract, etc.]`
 
 Instructions:
 1. Write a social media post tailored to the **Platform**, **Tone**, and **Target Audience**.  
@@ -143,11 +143,11 @@ AI Image Prompt:
 You are a seasoned marketing strategist with over 10 years of experience in email marketing. You excel at crafting persuasive, value-driven email copy that speaks directly to target audiences and drives conversions. Your emails are always clear, concise, and structured for maximum impact.
 
 Task: Write a compelling product launch email that promotes a new product: 
-[YOUR PRODUCT_NAME], [YOUR PRODUCT DESCRIPTION]. 
-Key Message or Main Feature or Hook: [Core benefit or highlight or key Features or Selling Points. e.g., “low cost, dashcam included”]
-Target Audience: [Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione] 
-Tone: [Professional / Friendly / Playful / Inspirational, etc.]
-Call to Action: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.] 
+`[YOUR PRODUCT_NAME]`, `[YOUR PRODUCT DESCRIPTION]`.
+Key Message or Main Feature or Hook: `[Core benefit or highlight or key Features or Selling Points. e.g., “low cost, dashcam included”]`
+Target Audience: `[Overall product or campaign theme, e.g., Futuristic, Eco-Friendly, Luxury, Innovatione]`
+Tone: `[Professional / Friendly / Playful / Inspirational, etc.]`
+Call to Action: `[What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.]`
 
 Output Format:
 
@@ -169,9 +169,9 @@ Urgency + CTA: Add a time-sensitive offer or exclusive incentive. End with a cle
 ### 👤 Prompt Input (User Input):
 You are a skilled content strategist trained in SEO and audience-first writing. Based on the input below, create a reusable blog post outline for marketing use.
 
-- **Topic**: [e.g., How AI is Changing Digital Marketing]  
-- **Target Audience**: [e.g., Marketing Managers / eCommerce Founders / B2B SaaS Decision Makers]  
-- **Keywords to Include**: [e.g., AI tools, content automation, personalization]
+- **Topic**: `[e.g., How AI is Changing Digital Marketing]`
+- **Target Audience**: [e.g., Marketing Managers / eCommerce Founders / B2B SaaS Decision Makers]`
+- **Keywords to Include**: `[e.g., AI tools, content automation, personalization]`
 
 Instructions:
 1. **Blog Title**: Generate a title that includes at least one keyword, is attention-grabbing, and aligns with the audience's interests.
@@ -225,10 +225,10 @@ Outline:
 ### 👤 Prompt Input (User Input):
 You are a creative marketing copywriter skilled at writing punchy, benefit-driven CTA headlines. Based on the input below, generate 5 high-converting CTA options that are concise, emotionally resonant, and aligned with the offer and tone.
 
-- **Product/Service Name**: [e.g., Flow.ai]  
-- **Target Audience**: [e.g., Startup Teams]  
-- **Offer or Hook**: [e.g., "Free for 30 days"]  
-- **Tone**: [Urgent / Friendly / Bold / Fun / Confident] *(optional)*
+- **Product/Service Name**: `[e.g., Flow.ai]`
+- **Target Audience**: `[e.g., Startup Teams]` 
+- **Offer or Hook**: `[e.g., "Free for 30 days"]`
+- **Tone**: `[Urgent / Friendly / Bold / Fun / Confident]` *(optional)*
 
 Output Format:
 
@@ -254,9 +254,9 @@ Output Format:
 ### 👤 Prompt Input (User Input):
 You are a multilingual marketing translator who specializes in culturally relevant and emotionally consistent localization. Based on the input below, translate and localize the given English marketing copy into the following 8 languages, while preserving tone and clarity.
 
-- **Original Text (English)**: [e.g., “Discover the power of AI-powered design tools. Try Flow.ai free today!”]  
-- **Tone**: [e.g., Friendly and professional / Confident and innovative]
-- **Regional Variants (optional)**: Specify if tone or vocabulary should follow certain regions (e.g., Spanish (LATAM), French (Canada), Chinese (Hong Kong))
+- **Original Text (English)**: `[e.g., “Discover the power of AI-powered design tools. Try Flow.ai free today!”]`
+- **Tone**: `[e.g., Friendly and professional / Confident and innovative]`
+- **Regional Variants (optional)**: `[Specify if tone or vocabulary should follow certain regions (e.g., Spanish (LATAM), French (Canada), Chinese (Hong Kong))]`
 
 Output Format:
 
