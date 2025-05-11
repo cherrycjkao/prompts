@@ -18,7 +18,7 @@ Each prompt is modular, editable, and optimized for speed + clarity.
 - [4. Marketing Email Writer](#4-marketing-email-writer)  
 - [5. Blog Outline Generator](#5-blog-outline-generator)  
 - [6. Call To Action Copy Generator](#6-call-to-action-copy-generator)  
-- [7. Global Marketing Copy Localizer 8 Languages](#7-Global-Marketing-Copy-Localizer-8-Languages)
+- [7. Global Marketing Copy Localizer 8 Languages](#7-global-Marketing-Copy-Localizer-8-Languages)
 ---------------------------------
 
 ---
