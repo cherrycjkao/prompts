@@ -152,8 +152,11 @@ Call to Action: `[What action do you want users to take? E.g., "Shop Now", "Join
 Output Format:
 
 Subject Line: Catchy and attention-grabbing, no more than 50 characters.
+
 Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
+
 Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
+
 Urgency + CTA: Add a time-sensitive offer or exclusive incentive. End with a clear, compelling CTA placed for high conversion.
 
 > **🛠 Techniques Used:**  
