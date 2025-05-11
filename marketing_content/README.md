@@ -49,6 +49,7 @@ Instructions:
 6. Focus on **value + action**: make the benefit clear and end with a strong, actionable CTA.
 
 Output Format:
+
 [3 variations of formatted social posts tailored to the chosen platform, tone, and audience, including appropriate hashtags and emojis]
 
 > **💡 Note**: For multi‑platform campaigns, run this prompt once per platform with adjusted **Platform** input.  
@@ -84,7 +85,8 @@ Instructions:
 5. Avoid including text in the image prompt unless clearly specified.  
 
 Output Format:
-> “[A flat illustration of a modern marketer smiling at a glowing AI interface, surrounded by creative tools and post-it notes—vibrant tones, Instagram style]”
+
+[A flat illustration of a modern marketer smiling at a glowing AI interface, surrounded by creative tools and post-it notes—vibrant tones, Instagram style]
 
 > **🛠 Techniques Used:**  
 > - **Context embedding from copy**: Uses the post text to infer themes and tone for image alignment.  
@@ -121,6 +123,7 @@ Instructions:
 5. Avoid embedding text in the visual unless specifically instructed.
 
 Output Format:
+
 [AI-crafted post optimized for the selected platform]
 
 AI Image Prompt:
@@ -147,6 +150,7 @@ Tone: [Professional / Friendly / Playful / Inspirational, etc.]
 Call to Action: [What action do you want users to take? E.g., "Shop Now", "Join the Discussion", "Learn More", etc.] 
 
 Output Format:
+
 Subject Line: Catchy and attention-grabbing, no more than 50 characters.
 Introduction: 1–2 sentences that are engaging, personalized, and highlight the core product benefit quickly.
 Product Benefits: Highlight the value, convenience, and any standout features using bullet points or a concise paragraph.
