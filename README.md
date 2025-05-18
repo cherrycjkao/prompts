@@ -36,4 +36,4 @@ A Prompt Engineer / AI Designer who is passionate about creative applications an
 ---
 ## 📄 License
 
-This repository is licensed under the [MIT License](./LICENSE), allowing both personal and commercial usage.
+This repository is licensed under the [MIT License](./LICENSE.me), allowing both personal and commercial usage.
