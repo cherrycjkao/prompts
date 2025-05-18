@@ -31,7 +31,7 @@ Welcome to my AI Prompt portfolio! Here are some Prompt examples I designed for 
 
 A Prompt Engineer / AI Designer who is passionate about creative applications and language structure, currently focusing on cross-modal applications and generative content design.
 
-📫 [LinkedIn](https://www.linkedin.com) | ✍️ Medium | 💼 Portfolio（Coming soon 🔨）
+📫 [LinkedIn]((https://www.linkedin.com/in/chinjungkao/)) | ✍️ Medium | 💼 Portfolio（Coming soon 🔨）
 
 ---
 ## 📄 License
