@@ -5,9 +5,9 @@ Welcome to my AI Prompt portfolio! Here are some Prompt examples I designed for 
 
 ---
 
-## 📂 Category
+## 📂 Categories
 
- Categories | Description | Preview
+ Category | Description | Preview
 |------|------|-----------|
 | 🖼️ [Image Generation prompt: Stable Difussion](image_generation/stable_diffusion/README.md) | Stable Difussion Visual Creation: 3D Toy Texture | ![3D Toy Texture](image_generation/stable_diffusion/3D_toy_texture_prompt_in_Stable_Diffusion.png) |
 | 🖼️ [Image Generation prompt: Google Image FX](image_generation/image_fx/README.md) | Google Image FX Visual Creation: TS inspired doll | ![TS inspired doll](image_generation/image_fx/TS_doll_image_fx.jpg) |
