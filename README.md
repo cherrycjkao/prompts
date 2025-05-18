@@ -34,3 +34,6 @@ A Prompt Engineer / AI Designer who is passionate about creative applications an
 📫 [LinkedIn](https://www.linkedin.com) | ✍️ Medium | 💼 Portfolio（Coming soon 🔨）
 
 ---
+## 📄 License
+
+This repository is licensed under the [MIT License](./LICENSE), allowing both personal and commercial usage.
