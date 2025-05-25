@@ -27,3 +27,10 @@ Examples of unacceptable behavior include:
 ## Scope
 
 This Code of Conduct applies within all project spaces, and also applies when an individual is officially representing the project in public spaces.
+
+## For Code of Conduct violations on GitHub
+
+You may also report directly to GitHub via:  
+🔗 [https://docs.github.com/en/site-policy/reporting-content](https://docs.github.com/en/support/contacting-github-support)
+
+Please note that this is an independent open-source project with no dedicated enforcement team.
