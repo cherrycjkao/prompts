@@ -89,6 +89,8 @@ Response:
 > **🛠 Techniques Used:**  
 > - Instruction-based: clear instructions on task, tone, output format, prioritization.
 > - Few-shot prompting: two detailed examples showing inputs and corresponding questions.
+> - Schema prompting: Ensures the model focuses on the most diagnostic fields.
+> - Combined prompting: Brings together instructions + examples + structured inputs for maximum reliability.
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
