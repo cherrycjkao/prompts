@@ -1,143 +1,188 @@
-📑 Support Use Case - Example Outputs
+# 📑 Support Use Case - Example Outputs
 
-How to use:
+## How to use:
+1. Copy the **Prompt** sections from `support_prompts/supportREADME.md` (excluding the **💡 Note** sections).  
+2. Provide the required inputs (e.g., issue type, tool name, ticket priority) based on your case.  
+3. Use the AI-generated output for ticket triage, response drafts, root cause summaries, customer satisfaction messages, or follow-up communications.
 
-Copy the Prompt sections from support_prompts/supportREADME.md (excluding the 💡 Note sections).
+---
 
-Provide the required inputs (e.g., issue type, tool name, ticket priority) based on your case.
+## Table of Contents:
+1. [Diagnostic Prompt Example](#1-diagnostic-prompt-example)  
+2. [Troubleshooting Prompt Example](#2-troubleshooting-prompt-example)  
+3. [Workflow Structuring Prompt Example](#3-workflow-structuring-prompt-example)  
+4. [Common Issues Prompt Example](#4-common-issues-prompt-example)  
+5. [Customer Satisfaction Prompt Example](#5-customer-satisfaction-prompt-example)  
+6. [Follow-Up Prompt Example](#6-follow-up-prompt-example)
 
-Use the AI‑generated output for ticket triage, response drafts, root cause summaries, or customer updates.
+---
 
-Table of Contents:
+> **💡 Note**:  
+> - Each section shows one prompt’s **User Input** and a sample **🤖 AI Output**.  
+> - Outputs are structured for clarity, brevity, and consistent tone.  
+> - Mix and match examples to build multi-step workflows.
 
-Tool Issue Triage Prompt Example
+---
 
-Root Cause Summary Generator Example
+## 1. **Diagnostic Prompt Example**  
+> For gathering detailed issue context
 
-Support Response Writer Example
+### 👤 User Input:
+You are a Tier 2 support agent. Ask clarifying questions for:
+- **Product Module**: Billing API  
+- **Reported Behavior**: Customers see “timeout” when fetching invoices  
+- **Customer Role**: End user  
+- **Urgency Level**: High  
+- **Known Constraints**: Mobile app only  
 
-Follow-Up Email Writer Example
+### 🤖 AI Output:
+**🔍 Clarification Questions**
 
-💡 Note:
+**Environment**  
+- Which mobile OS and app version are you using?  
+- Are you on Wi-Fi or cellular data?
 
-Each section demonstrates a reusable prompt tailored to a specific support task.
+**Reproduction Steps**  
+- What exact steps do you take to fetch an invoice?  
+- Does it time out every attempt or intermittently?
 
-Outputs are structured, clear, and follow tone guidelines for enterprise support comms.
+**Expected vs Actual**  
+- What did you expect to see?  
+- What error message appears instead?
 
-You can mix and match modules for multi-step responses.
+**Additional Context**  
+- Have you tried on another network or device?  
+- Is anyone else on your team experiencing this?
 
-1. Tone Tuner for Support Tickets
+↩️ [Back to Table of Contents](#table-of-contents)
 
-Description:This prompt helps adjust the tone of support replies to match the desired level of empathy, formality, and friendliness, while keeping content intact.
+---
 
-🟦 User Input Format:
+## 2. **Troubleshooting Prompt Example**  
+> For step-by-step resolution guidance
 
-Raw message (agent-written)
+### 👤 User Input:
+You need to write resolution steps for:
+- **Issue Summary**: “504 gateway timeout when saving record”  
+- **Environment**: Browser / Windows 10  
+- **Steps Already Tried**: Cleared cache, logged out/in  
+- **Technical Limitation**: No console access  
+- **Tone**: Reassuring  
 
-Desired tone (e.g., friendly, neutral, apologetic)
+### 🤖 AI Output:
+**🛠 Steps to Resolve**
 
-📌 Prompt Usage Guidelines:Use this to humanize overly robotic replies or make emotional ones more professional.
+1. Please retry saving the record after refreshing the page.  
+2. If the error persists, open an Incognito window and attempt the same action.  
+3. Still seeing the timeout? Clear your browser’s cookies for our domain and try again.  
+4. If it still fails, share the exact timestamp and any on-screen messages.
 
-🤖 Output Format:A revised message with the same content but adjusted tone.
+✔️ *Let us know once step 3 is complete or if you encounter new errors.*
 
-🛠 Technologies:Tone style transfer, semantic preservation model
+↩️ [Back to Table of Contents](#table-of-contents)
 
-2. Troubleshooting Explainer Generator
+---
 
-Description:Generates step-by-step explanations for troubleshooting procedures in simple, clear language.
+## 3. **Workflow Structuring Prompt Example**  
+> For internal action planning
 
-🟦 User Input Format:
+### 👤 User Input:
+Generate an internal plan for:
+- **Issue Type**: Permissions bug  
+- **Dependencies**: IAM team, Database admins  
+- **Ticket Priority**: Urgent  
+- **Customer Sentiment**: Frustrated (VIP)  
+- **Your Goal**: Triage & prepare escalation packet  
 
-Technical issue description
+### 🤖 AI Output:
+🧭 **Immediate Steps**  
+- Reproduce permissions error using VIP user account.  
+- Collect screenshots and API logs.
 
-Steps needed to fix
+🔁 **Dependencies**  
+- Loop in IAM team for policy review.  
+- Notify DB admins to check ACL settings.
 
-User expertise level (e.g., beginner, advanced)
+📌 **Documentation**  
+- Add details to ticket #12345: user role, timestamps, error codes.
 
-📌 Prompt Usage Guidelines:Use this when customers need to perform technical actions themselves.
+🎯 **Goal**  
+- Confirm root cause & assemble escalation summary for Engineering within 1 hour.
 
-🤖 Output Format:A plain-language message guiding the user step-by-step.
+↩️ [Back to Table of Contents](#table-of-contents)
 
-🛠 Technologies:Instruction rewriter, technical simplifier, reading level adjuster
+---
 
-3. Bug Acknowledgement Prompts
+## 4. **Common Issues Prompt Example**  
+> For known-issue messages
 
-Description:Helps agents professionally acknowledge known bugs and explain what's being done, without sounding vague or dismissive.
+### 👤 User Input:
+Create a reusable response for:
+- **Issue Title**: 500 error on payment update  
+- **Root Cause**: backend rate-limiting  
+- **ETA for Fix**: 4 hours  
+- **Suggested Workaround**: retry after 15 minutes  
+- **Tone**: Transparent  
 
-🟦 User Input Format:
+### 🤖 AI Output:
+Hi [Customer Name],
 
-Bug summary
+We’re aware of a 500 error affecting payment updates due to backend rate-limiting.
 
-Known impact
+🔧 **Workaround**  
+Please retry your update after 15 minutes.
 
-Workaround (if any)
+🛠 **ETA for Fix**  
+Our team is deploying a fix within the next 4 hours. We will notify you once it’s live.
 
-ETA or next update
+Thank you for your patience!
 
-📌 Prompt Usage Guidelines:Use when confirming an issue is a known bug. Avoid overpromising.
+↩️ [Back to Table of Contents](#table-of-contents)
 
-🤖 Output Format:A concise, polite explanation of the known issue and current status.
+---
 
-🛠 Technologies:Apology softener, ETA estimator, transparency-enhancer
+## 5. **Customer Satisfaction Prompt Example**  
+> For post-resolution feedback
 
-4. Escalation Summary Prompts
+### 👤 User Input:
+Write a satisfaction message using:
+- **Agent Name**: Alex  
+- **Case ID**: 7890  
+- **Outcome**: Resolved  
+- **Preferred Tone**: Friendly  
 
-Description:Helps agents summarize a case before escalating to a higher-level team, ensuring clarity and completeness.
+### 🤖 AI Output:
+Hi there,
 
-🟦 User Input Format:
+Thanks for giving us the opportunity to help with your issue (Case #7890). I’m glad we could get everything resolved for you!
 
-Customer issue summary
+If you have a moment, would you mind sharing feedback on your experience? Your input helps us improve.
 
-Troubleshooting already done
+Cheers,  
+Alex
 
-Relevant logs/screenshots (optional)
+↩️ [Back to Table of Contents](#table-of-contents)
 
-Urgency level
+---
 
-📌 Prompt Usage Guidelines:Use before escalation to reduce back-and-forth. Should include what's been tried and what’s needed.
+## 6. **Follow-Up Prompt Example**  
+> For proactive check-ins
 
-🤖 Output Format:A 3–5 sentence escalation summary suitable for internal transfer.
+### 👤 User Input:
+Draft a follow-up for:
+- **Customer Name**: Jamie  
+- **Original Issue**: Login errors  
+- **Last Action**: Fix deployed 2 days ago  
+- **Next ETA**: Monitoring ongoing  
+- **Ticket #**: 4567  
 
-🛠 Technologies:Summarization engine, context condensing module, intent classifier
+### 🤖 AI Output:
+Hi Jamie,
 
-5. Customer Satisfaction Prompts
+Just checking in on Ticket #4567 regarding your login errors. We deployed a fix 2 days ago and are still monitoring performance.
 
-Description:These prompts help support agents craft natural, polite, and non-robotic responses when collecting feedback after an interaction. Designed to encourage honest replies and improve future service quality.
+Please let us know if you’re seeing any further issues—or if everything’s running smoothly—so we can close out your case.
 
-🟦 User Input Format:
+Thanks again for your patience!
 
-Agent name
-
-Case ID or short reference
-
-Service outcome summary
-
-Preferred tone (e.g., friendly, professional)
-
-📌 Prompt Usage Guidelines:Use after a case is resolved or a ticket is closed. Best sent within 24 hours of resolution. Maintain a balance between warmth and brevity.
-
-🤖 Output Format:A short customer satisfaction message (2–3 sentences) with a CTA (e.g., feedback link or rating request).
-
-🛠 Technologies:Tone rewriter, intent detection, conversational UX enhancer
-
-6. Follow-Up Prompts
-
-Description:These prompts generate empathetic follow-up messages for unresolved issues or pending fixes. Useful for checking in with customers and maintaining proactive communication without sounding repetitive.
-
-🟦 User Input Format:
-
-Customer name
-
-Original issue summary
-
-Last action taken
-
-Next expected step or ETA
-
-Optional: Internal ticket number
-
-📌 Prompt Usage Guidelines:Use if more than 48 hours have passed without update. Adjust frequency depending on urgency and sensitivity of the case.
-
-🤖 Output Format:A clear, personalized follow-up message that includes brief status, next steps, and a warm tone.
-
-🛠 Technologies:Context retention engine, natural tone composer, message shortening logic
+↩️ [Back to Table of Contents](#table-of-contents)
