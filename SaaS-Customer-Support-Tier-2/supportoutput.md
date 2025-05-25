@@ -1,7 +1,7 @@
 # 📑 Support Use Case - Example Outputs
 
 ## How to use:
-1. Copy the **Prompt** sections from `support_prompts/supportREADME.md` (excluding the **💡 Note** sections).  
+1. Copy the **Prompt** sections from `SaaS-Customer-Support-Tier-2/README.md` (excluding the **💡 Note** sections).  
 2. Provide the required inputs (e.g., issue type, tool name, ticket priority) based on your case.  
 3. Use the AI-generated output for ticket triage, response drafts, root cause summaries, customer satisfaction messages, or follow-up communications.
 
