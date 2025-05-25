@@ -35,6 +35,13 @@ A Prompt Engineer / AI Designer who is passionate about creative applications an
 
 
 ---
+
+## 🧭 Code of Conduct
+
+Please refer to our [Code of Conduct](prompts/CODE_OF_CONDUCT.md) to ensure a safe and respectful collaboration environment.
+
+---
+
 ## 📄 License
 
 This repository is licensed under the [MIT License](./LICENSE), allowing both personal and commercial usage.
