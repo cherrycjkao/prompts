@@ -34,22 +34,64 @@ Each prompt is modular, editable, and optimized for clarity, speed, and empathy�
 
 ### 👤 Prompt Input (User Input):
 
-You're a Tier 2 support agent. Ask the customer smart, specific follow-up questions to narrow down a technical issue:
+You are a Tier 2 technical support agent for a SaaS product. Your task is to investigate a reported issue by asking the customer 3 to 5 smart, specific, and technically relevant follow-up questions that help isolate the root cause. Use the following customer-provided information to guide your questions:
 
-- **Product Module**: `[e.g., Billing, API, Admin Panel]`  
-- **Reported Behavior**: `[Short customer description or screenshot]`  
-- **Customer Role or Tier**: `[Admin / End user / Reseller]`  
-- **Urgency Level**: `[Low / Medium / High]`  
-- **Known Constraints** (optional): `[e.g., Mobile only / Restricted browser]`
+- **Product Version**: `[e.g., hardware model, software version, firmware version]`  
+- **Reported Behavior**: `[Brief description including any error codes, error messages, screenshots, or logs]`  
+- **Serial or License Number**: `[e.g., avaialbe on USB dongle or license information on the software]`  
+- **Project Deadline**: `[if applicable]`  
+- **Known Constraints** (optional): `[e.g., Mobile only / Restricted browser / location-based restrictions]`
+
+When crafting your questions, prioritize:
+- Check Product contract status, redirect to Sales team if invalid contract status
+- How the issue can be reproduced (steps taken, triggers, frequency)
+- The customer’s environment (device, OS, browser, application version)
+- Any recent changes (settings, configurations, deployments, upgrades)
+- The scope and impact (who else is affected, frequency, business impact)
+- Whether error messages, codes, screenshots, or logs are available or have been shared
+
+Your tone should be:
+- Professional and empathetic
+- In plain, user-friendly language
+- Avoid making wrong assumptions about permissions
 
 ### Output Format:
 
-[Well-structured clarification questions tailored to the input above, ideally grouped by category: environment, reproduction steps, expected behavior, etc.]
+[Provide a numbered list of 3–5 follow-up questions tailored to the information above.]
+
+📌 Example 1
+Input:
+- Product Version: Web App v3.1
+- Serial or License Number: ABC-1234
+- Reported Behavior: User sees a blank page when accessing the Billing tab. No error message.
+- Project Deadline: Next Tuesday
+- Known Constraints: User is on Safari on iOS 16
+
+Response:
+- Does this issue occur every time you access the Billing tab, or only intermittently?
+- Have you tried accessing the Billing tab on a different browser or device? If yes, does the problem persist?
+- Was the Billing tab working previously, or is this your first time using it?
+- Have there been any recent updates or changes to the app before this issue started?
+- Are other users in your organization experiencing the same issue?
+
+📌 Example 2
+Input:
+- Product Version: API v2.4
+- Serial or License Number: N/A
+- Reported Behavior: API returns 401 Unauthorized when calling the /invoices endpoint. Logs attached.
+- Project Deadline: ASAP
+- Known Constraints: Requests originate from a server hosted in EU-West
+
+Response:
+- Has your API key or token recently expired, been rotated, or revoked?
+- Are you able to successfully authenticate with other API endpoints using the same credentials?
+- Have there been any recent changes to your account permissions or access scopes?
+- Are all requests coming from the same server, or is this error seen from multiple environments?
+- Does the issue persist when you make the request via a tool like Postman or curl?
 
 > **🛠 Techniques Used:**  
-> - Root cause framing  
-> - Smart follow-up chaining  
-> - SaaS-specific context recognition  
+> - Instruction-based: clear instructions on task, tone, output format, prioritization.
+> - Few-shot prompting: two detailed examples showing inputs and corresponding questions.
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
