@@ -15,7 +15,7 @@ Welcome to my AI Prompt portfolio! Here are some Prompt examples I designed for 
 | 👔 [Business: HR & Recruitment prompts](business_hr_recruitment/README.md) | Human Resources Recruitment Assistance |👉🤖 [HR Prmopts Output Examples](business_hr_recruitment/examples.md) 👈|
 | 📝 [Marketing Content prompt](marketing_content/README.md) | AI‑powered expansion for posts, emails, blogs, CTA & multilingual copy |👉🤖 [Marketing Prompts Output Examples](marketing_content/mktoutput.md) 👈|
 | 🛠 [SaaS Customer Support Prompts (Tier 2)](SaaS-Customer-Support-Tier-2/README.md) | Saas Customer Tier 2 support |🤖 [Support Prompts Output Examples](SaaS-Customer-Support-Tier-2/supportoutput.md) Coming soon🔨| 
-| 🤖 [Chatbot Design prompt](chatbot_design/README.md) | ChatGPT Dialogue Design and Personality Construction | ![chatbot-output](assets/images/chatbot-sample-output.png) Coming soon🔨| 
+| 🤖 [Chatbot Design prompt](chatbot_design/README.md) | ChatGPT Dialogue Design and Personality Construction | 🤖[chatbot-output](assets/images/chatbot-sample-output.png) Coming soon🔨| 
 
 ---
 
