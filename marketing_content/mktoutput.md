@@ -1,7 +1,7 @@
 # 📑 Marketing Content - Example Outputs
 
 ## How to use:
-1. Copy the **Prompt** sections from `marketing_content/MKTREADME.md` (excluding the **💡 Note** sections).  
+1. Copy the **Prompt** sections from `marketing_content/README.md` (excluding the **💡 Note** sections).  
 2. Provide the required inputs (e.g., product name, campaign theme, etc.) based on your needs.  
 3. Use the AI‑generated output for your marketing channels—social posts, emails, blogs, CTAs, or multilingual assets.  
 
