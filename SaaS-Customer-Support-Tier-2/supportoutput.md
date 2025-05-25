@@ -29,25 +29,27 @@
 
 ### 👤 User Input:
 - Product Version: Web App v3.1
-- Reported Behavior: User sees a blank page when accessing the Testing tab. No error message.
 - Serial or License Number: ABC-1234
+- Reported Behavior: User sees a blank page when accessing the Testing tab. No error message.
+- Steps Taken Before the Issue Occurred: Clicked “Start” button in left panel from Testing window
+- Customer Environment: Chrome broswer on Windows 11
+- Recent Changes: Windows update
+- Scope and Impact: Only appears with office network, it works fine with personal network at home.
 - Project Deadline: May 31, 2025
 - Known Constraints (optional): User is on Chrome broswer on Windows 11
 
 ### 🤖 AI Output:
-Thanks for providing those details. To help us pinpoint the root cause of the blank page on the Testing tab, here are a few follow-up questions:
-
-Does the blank page appear every time you access the Testing tab, or does it happen only occasionally?
-
-Have you tried accessing the Testing tab in a different browser (e.g., Edge or Firefox) or using Chrome in incognito mode? If so, does the issue still occur?
-
-Was the Testing tab working previously, or is this your first time using it?
-
-Have there been any recent changes to your account, settings, or application environment (e.g., browser extensions, network policies, app updates)?
-
-Could you open the browser’s Developer Tools (F12), go to the Console tab, and let us know if there are any error messages or warnings displayed when you try to open the Testing tab?
-
-Once we have these details, we can investigate more precisely.
+Thanks for providing those details. Based on what you've shared, here are a few questions to help us narrow down the root cause:
+- Are there any browser console errors or blocked requests shown in the Network tab of Chrome’s Developer Tools when the Testing tab loads on the office network?
+(This can help identify if certain scripts or resources are being blocked.)
+- Is your office network using a firewall, proxy, or VPN that might restrict specific domains or ports?
+(These often interfere with web apps depending on their configuration.)
+- Have you recently cleared your browser cache or tried accessing the Testing tab in Incognito mode while on the office network?
+(This can rule out browser-side caching or extension conflicts.)
+- Do other colleagues on the same office network experience the same issue when accessing the Testing tab?
+(This helps determine if it’s a device-specific or network-wide issue.)
+- Does the issue still occur when temporarily disabling any antivirus or endpoint security software running on your office machine?
+(Some security tools can block scripts or web requests silently.)
 
 ↩️ [Back to Table of Contents](#table-of-contents)
 
