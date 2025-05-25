@@ -28,31 +28,26 @@
 > For gathering detailed issue context
 
 ### 👤 User Input:
-You are a Tier 2 support agent. Ask clarifying questions for:
-- **Product Module**: Billing API  
-- **Reported Behavior**: Customers see “timeout” when fetching invoices  
-- **Customer Role**: End user  
-- **Urgency Level**: High  
-- **Known Constraints**: Mobile app only  
+- Product Version: Web App v3.1
+- Reported Behavior: User sees a blank page when accessing the Testing tab. No error message.
+- Serial or License Number: ABC-1234
+- Project Deadline: May 31, 2025
+- Known Constraints (optional): User is on Chrome broswer on Windows 11
 
 ### 🤖 AI Output:
-**🔍 Clarification Questions**
+Thanks for providing those details. To help us pinpoint the root cause of the blank page on the Testing tab, here are a few follow-up questions:
 
-**Environment**  
-- Which mobile OS and app version are you using?  
-- Are you on Wi-Fi or cellular data?
+Does the blank page appear every time you access the Testing tab, or does it happen only occasionally?
 
-**Reproduction Steps**  
-- What exact steps do you take to fetch an invoice?  
-- Does it time out every attempt or intermittently?
+Have you tried accessing the Testing tab in a different browser (e.g., Edge or Firefox) or using Chrome in incognito mode? If so, does the issue still occur?
 
-**Expected vs Actual**  
-- What did you expect to see?  
-- What error message appears instead?
+Was the Testing tab working previously, or is this your first time using it?
 
-**Additional Context**  
-- Have you tried on another network or device?  
-- Is anyone else on your team experiencing this?
+Have there been any recent changes to your account, settings, or application environment (e.g., browser extensions, network policies, app updates)?
+
+Could you open the browser’s Developer Tools (F12), go to the Console tab, and let us know if there are any error messages or warnings displayed when you try to open the Testing tab?
+
+Once we have these details, we can investigate more precisely.
 
 ↩️ [Back to Table of Contents](#table-of-contents)
 
