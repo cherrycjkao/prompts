@@ -38,7 +38,7 @@ A Prompt Engineer / AI Designer who is passionate about creative applications an
 
 ## 🧭 Code of Conduct
 
-Please refer to our [Code of Conduct](prompts/CODE_OF_CONDUCT.md) to ensure a safe and respectful collaboration environment.
+Please refer to our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a safe and respectful collaboration environment.
 
 ---
 
