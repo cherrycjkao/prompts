@@ -1,144 +1,143 @@
-📂 AI Output Templates for SaaS Tier 2 Support
+📑 Support Use Case - Example Outputs
 
-This document provides clear, reusable output formats for each AI prompt type listed in the SaaS Customer Support Prompts (Tier 2) README. All formats are modular and can be adapted to your tools (e.g., Zendesk, Salesforce, Intercom).
+How to use:
 
-1. Diagnostic Output
+Copy the Prompt sections from support_prompts/supportREADME.md (excluding the 💡 Note sections).
 
-Used after collecting vague or partial reports.
+Provide the required inputs (e.g., issue type, tool name, ticket priority) based on your case.
 
-Output Format:
+Use the AI‑generated output for ticket triage, response drafts, root cause summaries, or customer updates.
 
-**🔍 Clarification Questions**
+Table of Contents:
 
-**Environment**
-- Can you confirm which browser and device you're using?
-- Are there any browser extensions enabled?
+Tool Issue Triage Prompt Example
 
-**Reproduction Steps**
-- What exact steps are you taking before the issue appears?
-- Is the issue reproducible every time?
+Root Cause Summary Generator Example
 
-**Expected vs Actual Behavior**
-- What did you expect to happen?
-- What happened instead?
+Support Response Writer Example
 
-**Additional Context**
-- Has this occurred before?
-- Are other users in your team seeing the same issue?
+Follow-Up Email Writer Example
 
-💡 Tailor question order based on urgency and known constraints.
+💡 Note:
 
-2. Troubleshooting Output
+Each section demonstrates a reusable prompt tailored to a specific support task.
 
-Used to walk customers through resolution steps.
+Outputs are structured, clear, and follow tone guidelines for enterprise support comms.
 
-Output Format:
+You can mix and match modules for multi-step responses.
 
-**🛠 Steps to Resolve**
+1. Tone Tuner for Support Tickets
 
-1. Log out of your account and clear your browser cache.
-2. Log back in and attempt the same action.
-3. If the issue persists, try accessing via Incognito/Private mode.
-4. Still facing the issue? Please collect a HAR file using [these steps](https://example.com).
+Description:This prompt helps adjust the tone of support replies to match the desired level of empathy, formality, and friendliness, while keeping content intact.
 
-**✔️ Verification**
-- Let us know if the issue is resolved after step 3.
-- If not, share your HAR file and the timestamp of your last attempt.
+🟦 User Input Format:
 
-📌 Customize tone: reassuring, technical, or friendly based on context.
+Raw message (agent-written)
 
-3. Internal Workflow Structuring Output
+Desired tone (e.g., friendly, neutral, apologetic)
 
-Used to organize your next actions internally.
+📌 Prompt Usage Guidelines:Use this to humanize overly robotic replies or make emotional ones more professional.
 
-Output Format:
+🤖 Output Format:A revised message with the same content but adjusted tone.
 
-**🧭 Internal Plan for Ticket #[Ticket ID]**
+🛠 Technologies:Tone style transfer, semantic preservation model
 
-**Immediate Steps**
-- Reproduce issue using reported inputs.
-- Check logs from [Timestamp / User ID].
+2. Troubleshooting Explainer Generator
 
-**Dependencies**
-- API Team (auth headers)
-- Billing System (sync check)
+Description:Generates step-by-step explanations for troubleshooting procedures in simple, clear language.
 
-**Priority**: Medium
-**Customer Sentiment**: Frustrated (VIP)
-**Goal**: Replicate & prepare pre-escalation packet
+🟦 User Input Format:
 
-**Next Touchpoint**: Update customer within 2 business hours.
+Technical issue description
 
-🧠 Keeps thinking organized for complex multi-stakeholder issues.
+Steps needed to fix
 
-4. Common Issues Output
+User expertise level (e.g., beginner, advanced)
 
-Used for known problems with workaround.
+📌 Prompt Usage Guidelines:Use this when customers need to perform technical actions themselves.
 
-Output Format:
+🤖 Output Format:A plain-language message guiding the user step-by-step.
 
-**📣 Known Issue: 500 Error on Payment Update**
+🛠 Technologies:Instruction rewriter, technical simplifier, reading level adjuster
 
-Hi [Customer Name],
+3. Bug Acknowledgement Prompts
 
-We’re aware of an issue where customers encounter a 500 error when updating their payment information. This is due to a temporary rate-limiting conflict in our backend service.
+Description:Helps agents professionally acknowledge known bugs and explain what's being done, without sounding vague or dismissive.
 
-**Temporary Solution**
-Please try updating your info after 15–20 minutes, or use a different browser.
+🟦 User Input Format:
 
-**ETA for Fix**
-Engineering is deploying a hotfix within 12 hours. We'll notify you once resolved.
+Bug summary
 
-Apologies for the disruption, and thank you for your patience!
+Known impact
 
-📣 Ideal for copy-pasting into tickets or mass status updates.
+Workaround (if any)
 
-5. Customer Satisfaction Output
+ETA or next update
 
-Used when closing tickets with a human tone.
+📌 Prompt Usage Guidelines:Use when confirming an issue is a known bug. Avoid overpromising.
 
-Output Format:
+🤖 Output Format:A concise, polite explanation of the known issue and current status.
 
-**🎉 Issue Resolved – Thank You!**
+🛠 Technologies:Apology softener, ETA estimator, transparency-enhancer
 
-Hi [Customer Name],
+4. Escalation Summary Prompts
 
-Thanks again for your patience while we worked on the [issue type]. We’ve now confirmed it’s resolved.
+Description:Helps agents summarize a case before escalating to a higher-level team, ensuring clarity and completeness.
 
-Really appreciate the logs and steps you shared—it helped a lot!
+🟦 User Input Format:
 
-If you need anything else, don’t hesitate to reach out.
+Customer issue summary
 
-Warm regards,  
-[Agent Name]  
-Tier 2 Support
+Troubleshooting already done
 
-❤️ Keep it short, real, and appreciative.
+Relevant logs/screenshots (optional)
 
-6. Follow-Up Output
+Urgency level
 
-Used to maintain proactive communication.
+📌 Prompt Usage Guidelines:Use before escalation to reduce back-and-forth. Should include what's been tried and what’s needed.
 
-Output Format:
+🤖 Output Format:A 3–5 sentence escalation summary suitable for internal transfer.
 
-**🔄 Just Checking In – [Case Topic]**
+🛠 Technologies:Summarization engine, context condensing module, intent classifier
 
-Hi [Customer Name],
+5. Customer Satisfaction Prompts
 
-Just following up on your case regarding [topic]—we wanted to make sure everything is still working well on your end.
+Description:These prompts help support agents craft natural, polite, and non-robotic responses when collecting feedback after an interaction. Designed to encourage honest replies and improve future service quality.
 
-If anything unexpected happens again, feel free to reply to this message. We’re here to help!
+🟦 User Input Format:
 
-Warmly,  
-[Agent Name]  
-Tier 2 Support
+Agent name
 
-📬 Useful for re-engaging quietly closed or pending cases.
+Case ID or short reference
 
-✅ Usage Notes
+Service outcome summary
 
-These output templates are mapped directly to the input formats listed in the README for SaaS Tier 2 Prompts.
+Preferred tone (e.g., friendly, professional)
 
-They are optimized for copy-paste use and modular editing.
+📌 Prompt Usage Guidelines:Use after a case is resolved or a ticket is closed. Best sent within 24 hours of resolution. Maintain a balance between warmth and brevity.
 
-To localize or scale, consider parameterizing with variables or integrating into macros.
+🤖 Output Format:A short customer satisfaction message (2–3 sentences) with a CTA (e.g., feedback link or rating request).
+
+🛠 Technologies:Tone rewriter, intent detection, conversational UX enhancer
+
+6. Follow-Up Prompts
+
+Description:These prompts generate empathetic follow-up messages for unresolved issues or pending fixes. Useful for checking in with customers and maintaining proactive communication without sounding repetitive.
+
+🟦 User Input Format:
+
+Customer name
+
+Original issue summary
+
+Last action taken
+
+Next expected step or ETA
+
+Optional: Internal ticket number
+
+📌 Prompt Usage Guidelines:Use if more than 48 hours have passed without update. Adjust frequency depending on urgency and sensitivity of the case.
+
+🤖 Output Format:A clear, personalized follow-up message that includes brief status, next steps, and a warm tone.
+
+🛠 Technologies:Context retention engine, natural tone composer, message shortening logic
