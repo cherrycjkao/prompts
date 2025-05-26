@@ -175,27 +175,67 @@ If unresolved after completing all steps, please gather the following for Tier 3
 > For internal action planning
 
 ### 👤 User Input:
-Generate an internal plan for:
-- **Issue Type**: Permissions bug  
-- **Dependencies**: IAM team, Database admins  
-- **Ticket Priority**: Urgent  
-- **Customer Sentiment**: Frustrated (VIP)  
-- **Your Goal**: Triage & prepare escalation packet  
+- **Issue Type**: Data sync error 
+- **Brief Description**: User sees a blank page when accessing the Testing tab. No error message.  
+- **Dependencies**: Backend service, IT, Infrastructure  
+- **Ticket Priority**: Medium
+- **Customer Sentiment**: Frustrated
+- **Your Goal**: Escalate to engineering
 
 ### 🤖 AI Output:
-🧭 **Immediate Steps**  
-- Reproduce permissions error using VIP user account.  
-- Collect screenshots and API logs.
+🧭 **Immediate Steps**
+1. **Action**: Attempt to replicate the blank page issue on the Testing tab in a controlled environment (staging), mimicking the customer environment (Chrome on Windows 11, office network conditions if possible).  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Confirm if the blank page appears under the same conditions as the customer’s environment.  
 
-🔁 **Dependencies**  
-- Loop in IAM team for policy review.  
-- Notify DB admins to check ACL settings.
+2. **Action**: Collect relevant logs from backend services, frontend console logs (including browser dev tools output), and infrastructure monitoring related to the Testing tab access during replication attempts.  
+   - **Responsibility**: Tier 2 Support Agent with support from Infrastructure and Backend teams  
+   - **Expected Outcome**: Gather diagnostic data to identify any silent failures, blocked requests, or service disruptions causing the blank page.  
 
-📌 **Documentation**  
-- Add details to ticket #12345: user role, timestamps, error codes.
+3. **Action**: Notify IT and Infrastructure teams about the issue to verify if there are ongoing incidents, firewall/proxy rules, or resource constraints impacting the Testing tab functionality, especially related to office network conditions.  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Determine if dependency services and network components are healthy or require intervention.  
 
-🎯 **Goal**  
-- Confirm root cause & assemble escalation summary for Engineering within 1 hour.
+4. **Action**: Prepare and package all replication steps, logs, screenshots, and customer impact details into an escalation document to send to engineering.  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Engineering team receives full context and can begin an in-depth investigation without delay.  
+
+#### 🗒 Internal Notes to Document:  
+- Detailed replication attempts and environment specifics (browser version, OS, network type)  
+- Collected frontend and backend logs, screenshots of blank page behavior  
+- Notation of customer frustration and elevated urgency despite Medium priority  
+- Dependencies notified: Backend, IT, Infrastructure teams involved and their responses  
+- All timestamps of communication and diagnostic activities for audit trail  
+
+#### 📣 Communication Milestones:
+
+**Customer Communication:**  
+- Acknowledge ticket receipt and initial investigation within 30 minutes  
+- Provide detailed update after replication and log collection (within 2 hours), explaining current status and next steps  
+- Inform customer when escalation to engineering is initiated, including estimated timelines if available  
+
+**Internal Communication:**  
+- Notify Backend, IT, and Infrastructure teams immediately after initial triage  
+- Share escalation package with engineering within 4 hours if issue remains unresolved  
+- Provide ongoing internal status updates until final resolution  
+
+#### 🔺 Escalation Process:
+
+- **Criteria for Escalation:**  
+  - Issue is reproducible or logs reveal silent failure with no immediate fix  
+  - Dependency services and network components verified as healthy  
+  - Customer impact and frustration level justify engineering involvement  
+
+- **Pre-Escalation Actions:**  
+  - Confirm no local misconfiguration or transient infrastructure/network outages  
+  - Verify all relevant logs, diagnostic data, and replication steps have been collected  
+  - Validate and document replication process clearly  
+
+- **Escalation Package:**  
+  - Step-by-step replication guide and detailed environment information  
+  - Backend, frontend, and infrastructure logs  
+  - Customer sentiment and priority notes  
+  - Summary of checks and findings from dependency teams
 
 ↩️ [Back to Table of Contents](#table-of-contents)
 
