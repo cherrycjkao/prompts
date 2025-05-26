@@ -174,27 +174,159 @@ Response:
 
 ## 3. **Workflow Structuring Prompts**
 
-> For internal clarity  
-> Use this when organizing your thinking before working a complex ticket.
+> For structured internal workflow generation
+> Use this when a Tier 2 agent needs to create an actionable support plan from a ticket, when organizing your thinking before working a complex ticket.
 
 ### 👤 Prompt Input (User Input):
 
-You’re a Tier 2 SaaS support agent. Generate an internal workflow to handle this ticket efficiently:
+You are a Tier 2 SaaS technical support agent. Based on the provided ticket context, populate an internal workflow using a structured format to ensure:
 
-- **Issue Type**: `[e.g., Data sync error / Permissions bug / Unexpected API behavior]`  
-- **Dependencies**: `[Other teams involved or systems affected]`  
-- **Ticket Priority**: `[Low / Medium / Urgent]`  
-- **Customer Sentiment**: `[Neutral / Frustrated / VIP account]`  
-- **Your Goal**: `[e.g., Triage & replicate / Hand off to engineering]`
+- Timely resolution of the issue
+- Efficient coordination with other teams
+- Transparent communication with the customer
+- Proper escalation when necessary
 
-### Output Format:
+### 🗂 Ticket Context:
 
-[A structured action plan including: immediate next steps, internal notes to document, and communication milestones.]
+- **Issue Type**: [e.g., Data sync error / Permissions bug / API failure]  
+- **Brief Description**: [Symptoms, error messages, screenshots, logs, etc.]  
+- **Dependencies**: [e.g., Backend service, third-party vendor, QA team]  
+- **Ticket Priority**: [Low / Medium / Urgent]  
+- **Customer Sentiment**: [Neutral / Frustrated / VIP account]  
+- **Your Goal**: [e.g., Triage & replicate / Escalate to engineering / Provide workaround]
+
+### 📤 Output Format:
+
+**Structured Action Plan**
+
+#### ✅ Immediate Next Steps:
+1. **Action**: [Specific first action, e.g., "Replicate the issue in staging"]  
+   - **Responsibility**: [Assigned to you or teammate]  
+   - **Expected Outcome**: [e.g., confirm the issue is reproducible]
+
+2. **Action**: [Second step, if escalation is likely or needed]  
+   - **Responsibility**: [...]  
+   - **Expected Outcome**: [...]
+
+#### 🗒 Internal Notes to Document:
+- Troubleshooting steps taken  
+- Sentiment and urgency indicators  
+- Cross-team dependencies and interactions  
+- Relevant logs, screenshots, links, diagnostics
+
+#### 📣 Communication Milestones:
+
+**Customer Communication:**  
+- Acknowledge receipt: [e.g., within 15 minutes]  
+- First update: [e.g., after 1 hour of triage]  
+- Resolution follow-up: [e.g., with ETA and outcome]
+
+**Internal Communication:**  
+- Notify dependent teams after initial triage  
+- Escalate with full context if unresolved within SLA window
+
+#### 🔺 Escalation Process:
+
+- **Criteria for Escalation**: [e.g., Unreproducible issue, systemic impact, SLA violation]  
+- **Pre-Escalation Actions**: [Standard resets, diagnostics, user confirmation]  
+- **Escalation Package**: [Logs, steps taken, reproduction instructions, urgency tags]
+
+---
+
+### 📌 Example 1
+
+**Ticket Context:**  
+- Issue Type: Permissions Bug  
+- Dependencies: Backend permissions API  
+- Ticket Priority: Urgent  
+- Customer Sentiment: Frustrated, VIP  
+- Your Goal: Triage and replicate, then escalate if needed
+
+**Structured Action Plan:**
+
+#### ✅ Immediate Next Steps:
+1. **Action**: Replicate issue in staging  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Confirm if bug is reproducible in test environment
+
+2. **Action**: Analyze permissions logs  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Identify failed API calls or access patterns
+
+#### 🗒 Internal Notes:
+- Document VIP status and urgency  
+- Log exact replication steps  
+- Contact backend team with findings if escalation is needed
+
+#### 📣 Communication Milestones:
+
+- **Customer:**  
+  - Acknowledge in 15 minutes  
+  - Update within 1 hour  
+  - Notify if escalation is initiated  
+
+- **Internal:**  
+  - Contact Backend/API team after triage  
+  - Escalate within 4 hours if unresolved
+
+#### 🔺 Escalation Process:
+
+- **Criteria:** Issue persists after initial diagnostics  
+- **Pre-Escalation:** Confirm it’s not a misconfiguration or expired permission  
+- **Package:** Logs, screenshot, test results, customer sentiment noted
+
+---
+
+### 📌 Example 2
+
+**Ticket Context:**  
+- Issue Type: Data Sync Error  
+- Dependencies: External CRM integration team  
+- Ticket Priority: Medium  
+- Customer Sentiment: Neutral  
+- Your Goal: Provide a temporary workaround and escalate if unresolved after triage
+
+**Structured Action Plan:**
+
+#### ✅ Immediate Next Steps:
+1. **Action**: Verify synchronization logs and check for error patterns  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Identify if sync failures are consistent or intermittent
+
+2. **Action**: Apply a known temporary workaround to resume partial syncing  
+   - **Responsibility**: Tier 2 Support Agent  
+   - **Expected Outcome**: Customer operations can continue while issue is investigated
+
+#### 🗒 Internal Notes:
+- Document sync failure timestamps and error messages  
+- Note any related CRM system outages reported by the vendor  
+- Track workaround applied and customer impact
+
+#### 📣 Communication Milestones:
+
+- **Customer:**  
+  - Acknowledge receipt within 30 minutes  
+  - Provide workaround instructions within 2 hours  
+  - Update on vendor investigation status daily
+
+- **Internal:**  
+  - Notify CRM integration team immediately after log review  
+  - Escalate to engineering if issue persists beyond 24 hours
+
+#### 🔺 Escalation Process:
+
+- **Criteria:** Issue unresolved after temporary workaround and vendor coordination  
+- **Pre-Escalation:** Confirm logs reviewed, workaround applied, and vendor status checked  
+- **Package:** Sync logs, workaround steps, vendor communication, customer sentiment
+
+---
 
 > **🛠 Techniques Used:**  
-> - Incident management structure  
-> - Pre-escalation filters  
-> - Cross-team coordination  
+> - Schema prompting: Enforces a structured action plan  
+> - Role-based instruction: Sets tone and responsibility as Tier 2 agent  
+> - Few-shot prompting: Two detailed examples showing inputs and structured outputs  
+> - Milestone-driven thinking: Emphasizes time-sensitive communications  
+> - Escalation filtering: Prevents unnecessary handoffs with clear criteria and pre-escalation steps
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
