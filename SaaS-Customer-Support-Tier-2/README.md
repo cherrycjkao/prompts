@@ -96,29 +96,79 @@ Response:
 
 ---
 
-## 2. **Troubleshooting Prompts**
+## 2. **Resolution Path Prompts**
 
-> For resolution paths  
-> Use this to generate step-by-step instructions or solution checks.
+> For clear, step-by-step troubleshooting  
+> Use this when the issue is known and you want to guide the customer to a solution.
 
 ### 👤 Prompt Input (User Input):
 
-You are a Tier 2 agent writing a clear resolution path for a customer issue. Generate actionable steps the customer can follow:
+You are a Tier 2 technical support agent for a SaaS product. Your task is to provide the customer with a **clear, actionable resolution path** based on the following issue details. Include all necessary steps to troubleshoot, validate, and roll back any changes safely.
 
-- **Issue Summary**: `[Brief summary of the problem]`  
-- **Environment**: `[Browser / OS / API version / etc.]`  
-- **Steps Already Tried**: `[List of attempted solutions, if any]`  
-- **Technical Limitation**: `[e.g., No access to dev console]`  
-- **Tone**: `[Reassuring / Technical / Friendly]`
+Use the customer-provided information to structure your resolution steps:
+
+- **Issue Summary**: `[Brief description of the issue]`
+- **Environment**: `[Device / Browser / OS / App Version / API Version]`
+- **Steps Already Tried**: `[What has already been attempted]`
+- **Known Constraints**: `[e.g., No dev tools / Slow network / Mobile-only / Limited permissions]`
+
+Your response must include:
+
+- A **numbered list** of step-by-step instructions
+- **Conditional steps** or alternatives if a step fails
+- **Rollback guidance** for reversible actions
+- **Verification steps** to confirm resolution
+
+Your tone should be:
+- Clear and professional
+- Friendly and supportive
+- Technically accurate but accessible to a non-expert
+
+---
 
 ### Output Format:
 
-[A numbered list of recommended actions, including conditional checks, rollback advice, and verification steps.]
+[Provide a structured, numbered resolution path. Each step should include an action, expected result, and fallback if applicable.]
 
-> **🛠 Techniques Used:**  
-> - SaaS troubleshooting logic trees  
-> - Conditional branching  
-> - Tier-2 escalation awareness  
+📌 Example 1  
+Input:  
+- Issue Summary: User can’t log in to the web app  
+- Environment: Chrome 91 on Windows 10  
+- Steps Already Tried: Cleared cache, tried another browser  
+- Known Constraints: No access to developer console  
+
+Response:
+
+1. **Check Browser Version**  
+   - Open Chrome → “Help” → “About Google Chrome”  
+   - *If outdated, update the browser and restart*  
+   - *If up to date, continue to Step 2*
+
+2. **Clear Cache and Cookies**  
+   - Press `Ctrl+Shift+Del` → Select “Cookies” and “Cached Images” → Clear  
+   - *Expected: removes potential corrupted session data*
+
+3. **Try Incognito Mode**  
+   - Open a new incognito window → Visit the login page  
+   - *If successful, issue is likely caused by extensions or stored data*
+
+4. **Rollback (if settings changed)**  
+   - If browser settings were modified, reset via: Settings → Advanced → “Reset settings”  
+   - *This will undo any problematic configuration changes*
+
+5. **Verify Resolution**  
+   - Attempt to log in again  
+   - *If successful, issue is resolved; if not, collect error messages or screenshots for escalation*
+
+---
+
+### 💡 Techniques Used
+
+- **Instruction-based prompting**: Clear structure with input schema and expected output  
+- **Few-shot prompting**: Example provided to guide agent behavior  
+- **Schema prompting**: Ensures consistency by aligning input and output formats  
+- **Fallback & rollback logic**: Supports multiple user environments and safe recovery  
+- **Verification emphasis**: Confirms success criteria and avoids premature closure
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
