@@ -130,7 +130,7 @@ Your tone should be:
 
 [Provide a structured, numbered resolution path. Each step should include an action, expected result, and fallback if applicable.]
 
-📌 Example 1  
+📌 Example
 Input:  
 - Issue Summary: User can’t log in to the web app  
 - Environment: Chrome 91 on Windows 10  
