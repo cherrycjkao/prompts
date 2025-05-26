@@ -96,7 +96,7 @@ Response:
 
 ---
 
-## 2. **Resolution Path Prompts**
+## 2. **Troubleshooting Prompts**
 
 > For clear, step-by-step troubleshooting  
 > Use this when the issue is known and you want to guide the customer to a solution.
