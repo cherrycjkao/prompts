@@ -124,8 +124,6 @@ Your tone should be:
 - Friendly and supportive
 - Technically accurate but accessible to a non-expert
 
----
-
 ### Output Format:
 
 [Provide a structured, numbered resolution path. Each step should include an action, expected result, and fallback if applicable.]
