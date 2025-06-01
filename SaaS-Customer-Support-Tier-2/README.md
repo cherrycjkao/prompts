@@ -339,22 +339,71 @@ You are a Tier 2 SaaS technical support agent. Based on the provided ticket cont
 
 ### 👤 Prompt Input (User Input):
 
-You're responding to a recurring Tier 2 issue. Write a reusable message explaining the known problem and temporary solution:
+You are responding to a recurring Tier 2 technical issue. Write a clear, empathetic, and reusable message that follows the template outlined below. Be sure to include all necessary details (Issue Title, Root Cause, Suggested Workaround, and ETA for Fix) based on the input fields.:
 
 - **Issue Title**: `[e.g., 500 error when updating payment info]`  
-- **Root Cause (if known)**: `[e.g., backend service rate-limiting]`  
+- **Root Cause (if known)**: `[e.g., 1. Backend service rate-limiting. 2. Our backend service is temporarily limiting the number of requests to ensure system stability and prevent overload. This can sometimes cause delays in processing certain actions, such as updating payment information]`  
 - **ETA for Fix**: `[e.g., Engineering deploying hotfix in 12 hours]`  
-- **Suggested Workaround**: `[Steps user can take while waiting]`  
+- **Suggested Workaround**: `[Steps user can take while waiting: Retry after 15 minutes or use a different browser]`  
 - **Tone**: `[Professional / Friendly / Transparent]`
+
+**Structured Action Plan:**
+- Acknowledge the issue clearly: Start by explaining the known issue in simple, user-friendly terms.
+- Apologize for the inconvenience: Acknowledge the inconvenience and provide an empathetic apology.
+- Explain the root cause (if known): Share the technical reason behind the issue (if available). Make it clear and easy to understand for non-technical users.
+- Provide a resolution timeline: Mention when the fix is expected to be deployed.
+- Suggest a workaround (if any): Provide a temporary workaround or alternate solutions.
+- Assure the user of future updates: Let users know when they can expect more information.
+- Tone: Ensure the tone is professional but friendly, transparent, or as instructed.
 
 ### Output Format:
 
-[A clear, empathetic message that can be reused, including an apology, optional workaround, and assurance of updates.]
+### 📌 Example 1
+Input:
+- Issue Title: Login Errors on Mobile App
+- Root Cause: App authentication system is experiencing intermittent issues
+- ETA for Fix: Engineering team is working on a fix, expected within 24 hours
+- Suggested Workaround: Try logging in through the web app in the meantime
+- Tone: Friendly
 
-> **🛠 Techniques Used:**  
-> - Prewritten template adaptation  
-> - Context-sensitive empathy  
-> - Explaining known issues with clarity  
+Response:
+
+Hi there,
+We're aware that some users are experiencing login issues on the mobile app. Our engineering team has identified that the app's authentication system is intermittently failing, and they are working hard to resolve it.
+
+In the meantime, we recommend logging in via the web app as an alternative. We know this is frustrating, and we sincerely apologize for the inconvenience. Rest assured, we'll keep you updated and expect to have a fix deployed within the next 24 hours.
+
+Thank you for your patience, and feel free to reach out with any other questions!
+
+
+### 📌 Example 2
+Input:
+- Issue Title: Payment Information Update Error
+- Root Cause: Our backend service is temporarily limiting the number of requests to ensure system stability and prevent overload. This can sometimes cause delays in processing certain actions, such as updating payment information.
+- ETA for Fix: Hotfix being deployed in the next 12 hours
+- Suggested Workaround: Retry after 15 minutes or use a different browser
+- Tone: Professional
+
+Response:
+
+Hi,
+We’re aware of the issue where users are unable to update their payment information, and we apologize for the inconvenience this is causing. The root cause has been identified as our backend service temporarily limiting the number of requests to ensure system stability and prevent overload. As a result, this can cause delays in processing certain actions, like updating payment details.
+
+In the meantime, we suggest trying again in 15 minutes or using a different browser as a temporary workaround. We expect a hotfix to be deployed within the next 12 hours and will keep you updated as more information becomes available.
+
+Thank you for your understanding, and we appreciate your patience as we work to resolve this.
+
+> **🛠 Techniques Used:**
+
+> - Clear Input Field Specification: Specifies key data points (e.g., Issue Title, Root Cause) for the model to incorporate, ensuring all necessary information is included.
+> - Contextual Reusability: Encourages template-based responses that can be reused for similar issues, making it adaptable.
+> - Explicit Guidance for Tone: Specifies the tone (e.g., Professional, Friendly), ensuring the model adjusts language and style accordingly.
+> - Simplified Technical Explanations: Translates technical issues into user-friendly language to enhance understanding.
+> - Empathy and Transparency: Guides the model to apologize for the inconvenience and provide transparent updates, creating a caring response.
+> - Actionable Workaround and ETA: Ensures the model includes practical steps for users (workarounds) and a timeline for resolution.
+> - Clear Structure: Outlines a specific response format (e.g., Acknowledge, Apologize, etc.) to ensure completeness and clarity.
+> - Tone and Style Variation: Demonstrates how to adjust tone (e.g., Friendly vs. Professional) while maintaining the same structure.
+> - Implicit User Expectation Management: Instructs the model to set clear expectations about the fix timeline and future updates.
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
