@@ -245,25 +245,27 @@ If unresolved after completing all steps, please gather the following for Tier 3
 > For known-issue messages
 
 ### 👤 User Input:
-Create a reusable response for:
-- **Issue Title**: 500 error on payment update  
-- **Root Cause**: backend rate-limiting  
-- **ETA for Fix**: 4 hours  
-- **Suggested Workaround**: retry after 15 minutes  
-- **Tone**: Transparent  
+- **Customer Name**: Jane
+- **Issue Title**: 500 Error When Updating Tool Setting 
+- **Root Cause**: Our backend service is temporarily limiting the number of requests to ensure system stability and prevent overload. This can sometimes cause delays in processing certain actions, such as updating payment information  
+- **ETA for Fix**: Hotfix being deployed in the next 12 hours
+- **Suggested Workaround**: Retry after 15 minutes or use a different browser 
+- **Tone**: Professional
 
 ### 🤖 AI Output:
-Hi [Customer Name],
+Hi Jane,
 
-We’re aware of a 500 error affecting payment updates due to backend rate-limiting.
+We’re aware of the 500 error you’re encountering when updating the tool setting. Here’s what we know:
 
 🔧 **Workaround**  
-Please retry your update after 15 minutes.
+Please try again after 15 minutes or use a different browser to complete your action.
 
 🛠 **ETA for Fix**  
-Our team is deploying a fix within the next 4 hours. We will notify you once it’s live.
+Our engineering team is deploying a hotfix in the next 12 hours. We will notify you as soon as the fix is live.
 
-Thank you for your patience!
+We apologize for the inconvenience and appreciate your patience as we work on resolving this issue.
+
+Thank you!
 
 ↩️ [Back to Table of Contents](#table-of-contents)
 
