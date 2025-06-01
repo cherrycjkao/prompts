@@ -428,21 +428,44 @@ Thank you for your understanding and patience!
 
 ### 👤 Prompt Input (User Input):
 
-You’re closing out a Tier 2 support issue. Write a short message to reinforce trust and satisfaction:
+You’re closing out a Tier 2 support issue. Craft a concise, customer-centric closing message that emphasizes appreciation for the customer's efforts and reinforces trust in your support team:
 
-- **Issue Type**: `[Bug fix / Feature request / Escalation follow-up]`  
-- **Outcome**: `[Resolved / Workaround provided / Still under investigation]`  
-- **Customer Effort**: `[e.g., Spent time testing, provided logs]`  
-- **Tone**: `[Empathetic / Grateful / Upbeat]`
+- **Issue Type**: [Bug fix / Feature request / Escalation follow-up]  
+- **Resolution Status**: [Resolved / Workaround provided / Still under investigation]  
+- **Customer Effort**: [e.g., Time spent testing, logs provided, steps taken, or other relevant actions]  
+- **Tone**: [Empathetic / Grateful / Upbeat]  
+- **Additional Context** *(Optional)*: [e.g., Specific challenges the customer faced, any personal touch or follow-up note]
+
 
 ### Output Format:
 
-[A human, thoughtful closing message that acknowledges customer effort and builds long-term trust.]
+Write a customer-facing message that includes the following 4 elements:
+
+1. **Acknowledgement of Effort**  
+   - Example:  
+     > "We truly appreciate the time and effort you put into testing the solution…"  
+     > "Thank you for your patience and for providing the detailed logs; they were invaluable in resolving this issue."
+
+2. **Reinforcement of Trust**  
+   - Example:  
+     > "Our team has thoroughly reviewed and addressed this issue, and we're confident it won't come up again."  
+     > "You can always count on us to support you through any future issues."
+
+3. **Confirmation of Resolution**  
+   - Example:  
+     > "We’re happy to confirm that the issue is now fully resolved."  
+     > "This has been fully addressed, and we believe it’s resolved to your satisfaction."
+
+4. **Positive Closing Note**  
+   - Example:  
+     > "If you need any further assistance, don’t hesitate to reach out. We're here to help!"  
+     > "Thanks again for working with us, and have a wonderful day ahead!"
 
 > **🛠 Techniques Used:**  
-> - Empathy injection  
-> - Trust language modeling  
-> - Positive closure phrasing  
+> - Empathy injection: Use language that acknowledges the customer’s emotional and practical efforts.
+> - Trust language modeling: Emphasize your team’s commitment and competence. 
+> - Clear and positive resolution: Provide closure and confidence in the outcome.  
+> - Personalization based on customer engagement: Reference specific steps the customer took to make the message feel tailored.
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
