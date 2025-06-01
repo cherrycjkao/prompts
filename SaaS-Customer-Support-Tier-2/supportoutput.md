@@ -275,21 +275,19 @@ Thank you!
 > For post-resolution feedback
 
 ### 👤 User Input:
-Write a satisfaction message using:
-- **Agent Name**: Alex  
-- **Case ID**: 7890  
-- **Outcome**: Resolved  
-- **Preferred Tone**: Friendly  
+- **Issue Type**: Escalation follow-up
+- **Resolution Status**: Still under investigation
+- **Customer Effort**: logs provided, steps taken, and our R&D still needs more time for permanant solution 
+- **Tone**: Empathetic
 
 ### 🤖 AI Output:
-Hi there,
+Thank you for sharing the detailed logs and walking us through the steps you took—your efforts have been instrumental in helping us move this investigation forward.
 
-Thanks for giving us the opportunity to help with your issue (Case #7890). I’m glad we could get everything resolved for you!
+We understand how important this issue is to you, and we want to reassure you that our support and R&D teams are actively collaborating to reach a permanent resolution.
 
-If you have a moment, would you mind sharing feedback on your experience? Your input helps us improve.
+While the case remains open and under active investigation, we’ll continue to keep you updated as soon as we have meaningful progress.
 
-Cheers,  
-Alex
+We truly appreciate your patience and understanding as we work through this. Please don’t hesitate to reach out if you have any new information or questions in the meantime.
 
 ↩️ [Back to Table of Contents](#table-of-contents)
 
