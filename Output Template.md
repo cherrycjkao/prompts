@@ -1,35 +1,21 @@
 User Input:
-
-Category: [Choose a category, e.g., Marketing Content, HR, Product Development]
-
-Objective: [Describe the goal, e.g., write a product launch email, create social media posts, generate blog outlines]
-
-Target Audience: [Who is the content for, e.g., car enthusiasts, potential customers, job seekers]
-
-Key Features/Details: [Provide specifics about the product or campaign, e.g., eco-friendly flying car, limited-time offer, exclusive perks]
-
-Tone: [Choose the tone, e.g., Playful, Professional, Persuasive, etc.]
-
-Format/Style: [Specify the desired output format: Email, Social Media Post, Blog Post, Call-to-Action, etc.]
-
-Additional Instructions: [Any other specific requests, e.g., word count, urgency, call to action, etc.]
+- Category: [Choose a category, e.g., Marketing Content, HR, Product Development]
+- Objective: [Describe the goal, e.g., write a product launch email, create social media posts, generate blog outlines]
+- Target Audience: [Who is the content for, e.g., car enthusiasts, potential customers, job seekers]
+- Key Features/Details: [Provide specifics about the product or campaign, e.g., eco-friendly flying car, limited-time offer, exclusive perks]
+- Tone: [Choose the tone, e.g., Playful, Professional, Persuasive, etc.]
+- Format/Style: [Specify the desired output format: Email, Social Media Post, Blog Post, Call-to-Action, etc.]
+- Additional Instructions: [Any other specific requests, e.g., word count, urgency, call to action, etc.]
 
 Example Prompt:
 User Input:
-
-Category: Marketing Content
-
-Objective: Generate a product launch email for a new flying car
-
-Target Audience: Car enthusiasts, tech geeks, early adopters
-
-Key Features/Details: Affordable flying car, includes dashcam, eco-friendly, limited-time discount offer
-
-Tone: Playful, engaging
-
-Format/Style: Email marketing copy with a clear call-to-action
-
-Additional Instructions: Mention urgency for the discount offer
+- Category: Marketing Content
+- Objective: Generate a product launch email for a new flying car
+- Target Audience: Car enthusiasts, tech geeks, early adopters
+- Key Features/Details: Affordable flying car, includes dashcam, eco-friendly, limited-time discount offer
+- Tone: Playful, engaging
+- Format/Style: Email marketing copy with a clear call-to-action
+- Additional Instructions: Mention urgency for the discount offer
 
 Expected Output Format from AI:
 The AI will then generate content formatted in the template structure as follows:
