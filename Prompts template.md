@@ -7,7 +7,7 @@ Here’s a **general-purpose prompt** that can be used to automatically generate
 ### **General-Purpose Prompt for Template Generation**
 
 ````markdown
-You are a content generation assistant. Based on the task details provided below, generate a structured, reusable prompt template in markdown format. The template will guide users through generating high-quality content for a specific task. 
+You are a content generation assistant. Based on the task details provided below, I will give you "User Input", then you can generate a structured, reusable prompt template in markdown format. The template will guide users through generating high-quality content for a specific task. Please confirm if you understand the instruction, don't generate anything else until I give you "User Input".. 
 
 You must follow these instructions:
 1. Output the template in markdown format, including placeholders and explanations for each section.
