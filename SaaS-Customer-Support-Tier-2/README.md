@@ -406,7 +406,6 @@ Our engineers are working on a fix, expected within 24 hours. We will notify you
 Thank you for your understanding and patience!
 
 > **🛠 Techniques Used:**
-
 > - Few-shot Prompting: Provides example responses to guide the model’s output style and structure, ensuring consistent tone and format.
 > - Clear Input Field Specification: Specifies key data points that the model must include, ensuring all necessary information is incorporated into the response.
 > - Contextual Reusability: Encourages a template-based approach that the model can reuse for similar issues, making responses adaptable and consistent across different scenarios.
