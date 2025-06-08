@@ -341,7 +341,7 @@ You are a Tier 2 SaaS technical support agent. Based on the provided ticket cont
 
 You are responding to a recurring Tier 2 technical issue. Write a clear, short, empathetic, and reusable message that follows the template outlined below. Be sure to include all necessary details (Issue Title, Root Cause, Suggested Workaround, and ETA for Fix) based on the input fields.:
 
-- **Customer Name**: [e.g., John Doe]
+- **Customer Name**: `[e.g., John Doe]`
 - **Issue Title**: `[e.g., 500 error when updating payment info]`  
 - **Root Cause (if known)**: `[e.g., 1. Backend service rate-limiting. 2. Our backend service is temporarily limiting the number of requests to ensure system stability and prevent overload. This can sometimes cause delays in processing certain actions, such as updating payment information]`  
 - **ETA for Fix**: `[e.g., Engineering deploying hotfix in 12 hours]`  
@@ -430,11 +430,11 @@ Thank you for your understanding and patience!
 
 You’re closing out a Tier 2 support issue. Craft a concise, customer-centric closing message that emphasizes appreciation for the customer's efforts and reinforces trust in your support team:
 
-- **Issue Type**: [Bug fix / Feature request / Escalation follow-up]  
-- **Resolution Status**: [Resolved / Workaround provided / Still under investigation]  
-- **Customer Effort**: [e.g., Time spent testing, logs provided, steps taken, or other relevant actions]  
-- **Tone**: [Empathetic / Grateful / Upbeat]  
-- **Additional Context** *(Optional)*: [e.g., Specific challenges the customer faced, any personal touch or follow-up note]
+- **Issue Type**: `[Bug fix / Feature request / Escalation follow-up]`
+- **Resolution Status**: `[Resolved / Workaround provided / Still under investigation]`
+- **Customer Effort**: `[e.g., Time spent testing, logs provided, steps taken, or other relevant actions]`
+- **Tone**: `[Empathetic / Grateful / Upbeat]`
+- **Additional Context** *(Optional)*: `[e.g., Specific challenges the customer faced, any personal touch or follow-up note]`
 
 
 ### Output Format:
@@ -473,27 +473,46 @@ Write a customer-facing message that includes the following 4 elements:
 
 ## 6. **Follow-Up Prompts**
 
-> For proactive support  
-> Use this to follow up after a case is closed or pending.
+> Use this template to generate a concise and professional follow-up message for a customer support case. The goal is to maintain open communication, reinforce your support, and invite a response or confirmation.
 
 ### 👤 Prompt Input (User Input):
 
-Write a proactive follow-up message that checks in with the customer and invites further feedback:
+You are a `[Support Specialist / Customer Success Rep / Technical Agent]` following up on a customer support case.
 
-- **Case ID / Topic**: `[e.g., API timeout fix #4532]`  
-- **Time Since Last Contact**: `[e.g., 2 days / 1 week]`  
-- **Status**: `[Resolved / In monitoring / Waiting for confirmation]`  
-- **Tone**: `[Friendly / Casual / Formal]`  
-- **Optional CTA**: `[e.g., “Let us know if this still happens”]`
+Please fill in the following fields:
 
-### Output Format:
+- **Customer Name**: [e.g., Jane]`
+- **Case ID / Topic**: `[e.g., API timeout fix #4532]`
+- **Time Since Last Contact**: `[e.g., 2 days, 1 week]`
+- **Case Status**: `[Resolved / In Monitoring / Waiting for Confirmation]`
+- **Preferred Tone**: `[Friendly / Professional / Casual]`
+- **Optional CTA**: `[e.g., “Let us know if the issue persists.”]`
 
-[A short, polite follow-up message that encourages customer response and maintains open communication.]
+---
+
+## ✉️ Output Format
+
+A short, 2–4 sentence message that:
+
+1. Acknowledges how long it’s been since the last contact  
+2. Reconfirms the current case status  
+3. Invites the customer to respond or confirm next steps  
+4. Uses the tone selected
+
+> Example Output:
+
+Hi [Customer Name], just checking in regarding your support case [Case ID / Topic]. It’s been [Time Since Last Contact], and the case is currently [Case Status]. Please feel free to reply if you have any updates or if there’s anything more we can do. [Optional CTA]
+
 
 > **🛠 Techniques Used:**  
-> - Polite persistence  
-> - Reassurance-first messaging  
-> - CTA for re-engagement  
+> - Polite persistence: The follow-up gently reminds the customer without pressuring them, keeping the message friendly and helpful.
+> - Reassurance-first messaging: Reinforces ongoing support to build trust and reduce potential frustration.
+> - Clear Call to Action: Each message ends with an open invitation for feedback, confirmation, or assistance.
+> - Personalization: Refer to the customer by name and mention the specific case ID or topic to make the message feel tailored and attentive.
+> - Context Preservation: Reference the last communication or current case status to maintain continuity and reduce the need for the customer to repeat themselves.
+> - Tone Matching: Adapt the language and style to match the preferred tone (Friendly, Professional, or Casual) for a more natural, empathetic message.
+> - Brevity with Clarity: Keep messages concise (2–4 sentences) while still providing enough context and information for the customer to act.
+> - Status Framing: Clearly and positively state the current case status (e.g., Resolved, In Monitoring) to reduce uncertainty and demonstrate progress.
 
 [↩️ Back to Table of Contents](#table-of-contents)
 
