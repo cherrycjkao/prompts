@@ -1,5 +1,3 @@
-To generate context-specific prompts based on the template I just provided, you'll want a prompt that helps you populate the **\[Task Type]**, **\[Field]**, **\[User Input]**, and other placeholders automatically, so you can quickly create tailored sections for different tasks. The idea is to have an AI system or tool generate the content for you, filling in these details with minimal input on your part.
-
 Here’s a **general-purpose prompt** that can be used to automatically generate sections of the reusable template with context-driven information:
 
 ---
