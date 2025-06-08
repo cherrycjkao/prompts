@@ -297,20 +297,20 @@ We truly appreciate your patience and understanding as we work through this. Ple
 > For proactive check-ins
 
 ### 👤 User Input:
-Draft a follow-up for:
-- **Customer Name**: Jamie  
-- **Original Issue**: Login errors  
-- **Last Action**: Fix deployed 2 days ago  
-- **Next ETA**: Monitoring ongoing  
-- **Ticket #**: 4567  
+
+You are a `Technical Agent` following up on a customer support case.
+- **Customer Name**: Jane  
+- **Case ID / Topic**: #4532 500 Error When Updating Tool Setting  
+- **Time Since Last Contact**: 2 days
+- **Case Status**: Waiting for Confirmation
+- **Preferred Tone**: Professional
+- **Optional CTA**: Please let us know if the issue persists.
 
 ### 🤖 AI Output:
-Hi Jamie,
+Hi Jane, 
 
-Just checking in on Ticket #4567 regarding your login errors. We deployed a fix 2 days ago and are still monitoring performance.
+Just checking in regarding your support case #4532 500 Error When Updating Tool Setting. It’s been 2 days since our last contact, and the case is currently marked as Waiting for Confirmation. 
 
-Please let us know if you’re seeing any further issues—or if everything’s running smoothly—so we can close out your case.
-
-Thanks again for your patience!
+Please feel free to reply if you have any updates or if there’s anything more we can assist with. Please let us know if the issue persists.
 
 ↩️ [Back to Table of Contents](#table-of-contents)
