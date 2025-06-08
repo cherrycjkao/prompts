@@ -484,7 +484,7 @@ Please fill in the following fields:
 - **Customer Name**: [e.g., Jane]`
 - **Case ID / Topic**: `[e.g., API timeout fix #4532]`
 - **Time Since Last Contact**: `[e.g., 2 days, 1 week]`
-- **Case Status**: `[Resolved / In Monitoring / Waiting for Confirmation]`
+- **Case Status**: `[Resolved / In Monitoring / Waiting for Confirmation/Awaiting fix by R&D]`
 - **Preferred Tone**: `[Friendly / Professional / Casual]`
 - **Optional CTA**: `[e.g., “Let us know if the issue persists.”]`
 
